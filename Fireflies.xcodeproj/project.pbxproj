@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F445AADC1ABEFC5D004ECE88 /* FFGLFirefliesView.h in Headers */ = {isa = PBXBuildFile; fileRef = F445AADB1ABEFC5D004ECE88 /* FFGLFirefliesView.h */; };
+		F445AADE1ABEFC5D004ECE88 /* FFGLFirefliesView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F445AADD1ABEFC5D004ECE88 /* FFGLFirefliesView.mm */; };
+		F445AAE71ABEFECF004ECE88 /* FFGLConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F445AAE41ABEFECF004ECE88 /* FFGLConfigurationWindowController.h */; };
+		F445AAE81ABEFECF004ECE88 /* FFGLConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F445AAE51ABEFECF004ECE88 /* FFGLConfigurationWindowController.m */; };
+		F445AAE91ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F445AAE61ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib */; };
+		F445AAED1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F445AAEA1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h */; };
+		F445AAEE1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F445AAEB1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m */; };
+		F445AAEF1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F445AAEC1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib */; };
+		F445AAF11ABF008A004ECE88 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445AAF01ABF008A004ECE88 /* ScreenSaver.framework */; };
+		F445AAF31ABF00A1004ECE88 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445AAF21ABF00A1004ECE88 /* OpenGL.framework */; };
+		F445AAF61ABF02D4004ECE88 /* FFGLUserDefaults+Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F445AAF41ABF02D4004ECE88 /* FFGLUserDefaults+Constants.h */; };
+		F445AAF71ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F445AAF51ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m */; };
+		F488E59C1ABF26AF00541B6B /* arrow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F488E58B1ABF26AF00541B6B /* arrow.cpp */; };
+		F488E59D1ABF26AF00541B6B /* arrow.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E58C1ABF26AF00541B6B /* arrow.h */; };
+		F488E59E1ABF26AF00541B6B /* bait.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F488E58D1ABF26AF00541B6B /* bait.cpp */; };
+		F488E59F1ABF26AF00541B6B /* bait.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E58E1ABF26AF00541B6B /* bait.h */; };
+		F488E5A01ABF26AF00541B6B /* control.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E58F1ABF26AF00541B6B /* control.h */; };
+		F488E5A11ABF26AF00541B6B /* firefly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F488E5901ABF26AF00541B6B /* firefly.cpp */; };
+		F488E5A21ABF26AF00541B6B /* firefly.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E5911ABF26AF00541B6B /* firefly.h */; };
+		F488E5A31ABF26AF00541B6B /* modes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F488E5921ABF26AF00541B6B /* modes.cpp */; };
+		F488E5A41ABF26AF00541B6B /* modes.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E5931ABF26AF00541B6B /* modes.h */; };
+		F488E5A61ABF26AF00541B6B /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F488E5951ABF26AF00541B6B /* scene.cpp */; };
+		F488E5A71ABF26AF00541B6B /* scene.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E5961ABF26AF00541B6B /* scene.h */; };
+		F488E5A81ABF26AF00541B6B /* tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F488E5971ABF26AF00541B6B /* tail.cpp */; };
+		F488E5A91ABF26AF00541B6B /* tail.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E5981ABF26AF00541B6B /* tail.h */; };
+		F488E5AA1ABF26AF00541B6B /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F488E5991ABF26AF00541B6B /* utils.cpp */; };
+		F488E5AB1ABF26AF00541B6B /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E59A1ABF26AF00541B6B /* utils.h */; };
+		F488E5D21ABF319300541B6B /* libgfx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F488E5CB1ABF316400541B6B /* libgfx.a */; };
+		F488E5D81ABF361D00541B6B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F488E5D71ABF361D00541B6B /* libstdc++.dylib */; };
+		F4DB006A1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DB00671AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h */; };
+		F4DB006B1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB00681AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m */; };
+		F4DB006C1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DB00691AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib */; };
+		F4DB00721AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DB006F1AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h */; };
+		F4DB00731AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB00701AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.m */; };
+		F4DB00741AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DB00711AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib */; };
+		F4DBF1211AC376B6003DF228 /* FFGLSceneSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBF11F1AC376B6003DF228 /* FFGLSceneSettings.h */; };
+		F4DBF1221AC376B6003DF228 /* FFGLSceneSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF1201AC376B6003DF228 /* FFGLSceneSettings.m */; };
+		F4DBF1271AC37BDD003DF228 /* FFGLConfigurationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBF1251AC37BDD003DF228 /* FFGLConfigurationViewController.h */; };
+		F4DBF1281AC37BDD003DF228 /* FFGLConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF1261AC37BDD003DF228 /* FFGLConfigurationViewController.m */; };
+		F4DBF12C1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBF1291AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h */; };
+		F4DBF12D1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF12A1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m */; };
+		F4DBF12E1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DBF12B1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib */; };
+		F4E451671ABF713E00424DD7 /* FFGLTabButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E451651ABF713E00424DD7 /* FFGLTabButtonCell.h */; };
+		F4E451681ABF713E00424DD7 /* FFGLTabButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E451661ABF713E00424DD7 /* FFGLTabButtonCell.m */; };
+		F4EDB2A41ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */; };
+		F4EDB2A51ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */; };
+		F4EDB2A61ABF5FDD00F2564B /* FFGLSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */; };
+		F4EDB2A71ABF5FDD00F2564B /* FFGLSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EDB2A31ABF5FDD00F2564B /* FFGLSecondaryBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F488E5CA1ABF316400541B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F488E5C41ABF316400541B6B /* libgfx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = libgfx;
+		};
+		F488E5CC1ABF316400541B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F488E5C41ABF316400541B6B /* libgfx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D5D8DAD08B3A0CF009C84F9;
+			remoteInfo = "t-gui";
+		};
+		F488E5CE1ABF316400541B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F488E5C41ABF316400541B6B /* libgfx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D5D8E8908B3A813009C84F9;
+			remoteInfo = "t-vec";
+		};
+		F488E5D01ABF318D00541B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F488E5C41ABF316400541B6B /* libgfx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = libgfx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F445AAD61ABEFC5D004ECE88 /* Fireflies.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fireflies.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F445AADA1ABEFC5D004ECE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F445AADB1ABEFC5D004ECE88 /* FFGLFirefliesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFGLFirefliesView.h; sourceTree = "<group>"; };
+		F445AADD1ABEFC5D004ECE88 /* FFGLFirefliesView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FFGLFirefliesView.mm; sourceTree = "<group>"; };
+		F445AAE41ABEFECF004ECE88 /* FFGLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationWindowController.h; sourceTree = "<group>"; };
+		F445AAE51ABEFECF004ECE88 /* FFGLConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationWindowController.m; sourceTree = "<group>"; };
+		F445AAE61ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F445AAEA1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLAboutBoxWindowController.h; sourceTree = "<group>"; };
+		F445AAEB1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLAboutBoxWindowController.m; sourceTree = "<group>"; };
+		F445AAEC1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLAboutBoxWindowController.xib; sourceTree = "<group>"; };
+		F445AAF01ABF008A004ECE88 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		F445AAF21ABF00A1004ECE88 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F445AAF41ABF02D4004ECE88 /* FFGLUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FFGLUserDefaults+Constants.h"; sourceTree = "<group>"; };
+		F445AAF51ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FFGLUserDefaults+Constants.m"; sourceTree = "<group>"; };
+		F488E58B1ABF26AF00541B6B /* arrow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arrow.cpp; path = "GPL Code/arrow.cpp"; sourceTree = "<group>"; };
+		F488E58C1ABF26AF00541B6B /* arrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arrow.h; path = "GPL Code/arrow.h"; sourceTree = "<group>"; };
+		F488E58D1ABF26AF00541B6B /* bait.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bait.cpp; path = "GPL Code/bait.cpp"; sourceTree = "<group>"; };
+		F488E58E1ABF26AF00541B6B /* bait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bait.h; path = "GPL Code/bait.h"; sourceTree = "<group>"; };
+		F488E58F1ABF26AF00541B6B /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control.h; path = "GPL Code/control.h"; sourceTree = "<group>"; };
+		F488E5901ABF26AF00541B6B /* firefly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = firefly.cpp; path = "GPL Code/firefly.cpp"; sourceTree = "<group>"; };
+		F488E5911ABF26AF00541B6B /* firefly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = firefly.h; path = "GPL Code/firefly.h"; sourceTree = "<group>"; };
+		F488E5921ABF26AF00541B6B /* modes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = modes.cpp; path = "GPL Code/modes.cpp"; sourceTree = "<group>"; };
+		F488E5931ABF26AF00541B6B /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = modes.h; path = "GPL Code/modes.h"; sourceTree = "<group>"; };
+		F488E5951ABF26AF00541B6B /* scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scene.cpp; path = "GPL Code/scene.cpp"; sourceTree = "<group>"; };
+		F488E5961ABF26AF00541B6B /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scene.h; path = "GPL Code/scene.h"; sourceTree = "<group>"; };
+		F488E5971ABF26AF00541B6B /* tail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tail.cpp; path = "GPL Code/tail.cpp"; sourceTree = "<group>"; };
+		F488E5981ABF26AF00541B6B /* tail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tail.h; path = "GPL Code/tail.h"; sourceTree = "<group>"; };
+		F488E5991ABF26AF00541B6B /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utils.cpp; path = "GPL Code/utils.cpp"; sourceTree = "<group>"; };
+		F488E59A1ABF26AF00541B6B /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = "GPL Code/utils.h"; sourceTree = "<group>"; };
+		F488E5C41ABF316400541B6B /* libgfx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libgfx.xcodeproj; path = "Fireflies/libgfx-1.1.0/macos/libgfx.xcodeproj"; sourceTree = "<group>"; };
+		F488E5D71ABF361D00541B6B /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		F4DB00671AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationMajorModeViewController.h; sourceTree = "<group>"; };
+		F4DB00681AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationMajorModeViewController.m; sourceTree = "<group>"; };
+		F4DB00691AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
+		F4DB006F1AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationSwarmModeViewController.h; sourceTree = "<group>"; };
+		F4DB00701AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationSwarmModeViewController.m; sourceTree = "<group>"; };
+		F4DB00711AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
+		F4DBF11F1AC376B6003DF228 /* FFGLSceneSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLSceneSettings.h; sourceTree = "<group>"; };
+		F4DBF1201AC376B6003DF228 /* FFGLSceneSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLSceneSettings.m; sourceTree = "<group>"; };
+		F4DBF1251AC37BDD003DF228 /* FFGLConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationViewController.h; sourceTree = "<group>"; };
+		F4DBF1261AC37BDD003DF228 /* FFGLConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationViewController.m; sourceTree = "<group>"; };
+		F4DBF1291AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationGeneralViewController.h; sourceTree = "<group>"; };
+		F4DBF12A1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationGeneralViewController.m; sourceTree = "<group>"; };
+		F4DBF12B1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationGeneralViewController.xib; sourceTree = "<group>"; };
+		F4E451651ABF713E00424DD7 /* FFGLTabButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLTabButtonCell.h; sourceTree = "<group>"; };
+		F4E451661ABF713E00424DD7 /* FFGLTabButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLTabButtonCell.m; sourceTree = "<group>"; };
+		F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLLightGrayBackgroundView.h; sourceTree = "<group>"; };
+		F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLLightGrayBackgroundView.m; sourceTree = "<group>"; };
+		F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLSecondaryBox.h; sourceTree = "<group>"; };
+		F4EDB2A31ABF5FDD00F2564B /* FFGLSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLSecondaryBox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F445AAD21ABEFC5D004ECE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F488E5D21ABF319300541B6B /* libgfx.a in Frameworks */,
+				F445AAF31ABF00A1004ECE88 /* OpenGL.framework in Frameworks */,
+				F445AAF11ABF008A004ECE88 /* ScreenSaver.framework in Frameworks */,
+				F488E5D81ABF361D00541B6B /* libstdc++.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F445AACC1ABEFC5D004ECE88 = {
+			isa = PBXGroup;
+			children = (
+				F488E5C41ABF316400541B6B /* libgfx.xcodeproj */,
+				F445AAD81ABEFC5D004ECE88 /* Fireflies */,
+				F445AAD71ABEFC5D004ECE88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F445AAD71ABEFC5D004ECE88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F445AAD61ABEFC5D004ECE88 /* Fireflies.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F445AAD81ABEFC5D004ECE88 /* Fireflies */ = {
+			isa = PBXGroup;
+			children = (
+				F445AAF41ABF02D4004ECE88 /* FFGLUserDefaults+Constants.h */,
+				F445AAF51ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m */,
+				F4DBF11F1AC376B6003DF228 /* FFGLSceneSettings.h */,
+				F4DBF1201AC376B6003DF228 /* FFGLSceneSettings.m */,
+				F488E58A1ABF268F00541B6B /* GPL Code */,
+				F445AADB1ABEFC5D004ECE88 /* FFGLFirefliesView.h */,
+				F445AADD1ABEFC5D004ECE88 /* FFGLFirefliesView.mm */,
+				F4EDB29D1ABF5FC600F2564B /* Configuration */,
+				F445AAD91ABEFC5D004ECE88 /* Supporting Files */,
+				F4DB00751AC4D29E005D2883 /* Frameworks */,
+			);
+			path = Fireflies;
+			sourceTree = "<group>";
+		};
+		F445AAD91ABEFC5D004ECE88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F445AADA1ABEFC5D004ECE88 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F488E58A1ABF268F00541B6B /* GPL Code */ = {
+			isa = PBXGroup;
+			children = (
+				F488E58C1ABF26AF00541B6B /* arrow.h */,
+				F488E58B1ABF26AF00541B6B /* arrow.cpp */,
+				F488E58E1ABF26AF00541B6B /* bait.h */,
+				F488E58D1ABF26AF00541B6B /* bait.cpp */,
+				F488E58F1ABF26AF00541B6B /* control.h */,
+				F488E5911ABF26AF00541B6B /* firefly.h */,
+				F488E5901ABF26AF00541B6B /* firefly.cpp */,
+				F488E5931ABF26AF00541B6B /* modes.h */,
+				F488E5921ABF26AF00541B6B /* modes.cpp */,
+				F488E5961ABF26AF00541B6B /* scene.h */,
+				F488E5951ABF26AF00541B6B /* scene.cpp */,
+				F488E5981ABF26AF00541B6B /* tail.h */,
+				F488E5971ABF26AF00541B6B /* tail.cpp */,
+				F488E59A1ABF26AF00541B6B /* utils.h */,
+				F488E5991ABF26AF00541B6B /* utils.cpp */,
+			);
+			name = "GPL Code";
+			sourceTree = "<group>";
+		};
+		F488E5C51ABF316400541B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F488E5CB1ABF316400541B6B /* libgfx.a */,
+				F488E5CD1ABF316400541B6B /* t-gui.app */,
+				F488E5CF1ABF316400541B6B /* t-vec */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DB00751AC4D29E005D2883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F488E5D71ABF361D00541B6B /* libstdc++.dylib */,
+				F445AAF21ABF00A1004ECE88 /* OpenGL.framework */,
+				F445AAF01ABF008A004ECE88 /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4DB00771AC4D315005D2883 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				F4E451651ABF713E00424DD7 /* FFGLTabButtonCell.h */,
+				F4E451661ABF713E00424DD7 /* FFGLTabButtonCell.m */,
+				F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */,
+				F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */,
+				F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */,
+				F4EDB2A31ABF5FDD00F2564B /* FFGLSecondaryBox.m */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		F4DB00781AC4D323005D2883 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4DBF12B1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib */,
+				F4DB00711AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib */,
+				F4DB00691AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib */,
+				F445AAEC1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib */,
+				F445AAE61ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4EDB29D1ABF5FC600F2564B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB00771AC4D315005D2883 /* Widgets */,
+				F445AAEA1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h */,
+				F445AAEB1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m */,
+				F4DBF1251AC37BDD003DF228 /* FFGLConfigurationViewController.h */,
+				F4DBF1261AC37BDD003DF228 /* FFGLConfigurationViewController.m */,
+				F4DBF1291AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h */,
+				F4DBF12A1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m */,
+				F4DB006F1AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h */,
+				F4DB00701AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.m */,
+				F4DB00671AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h */,
+				F4DB00681AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m */,
+				F445AAE41ABEFECF004ECE88 /* FFGLConfigurationWindowController.h */,
+				F445AAE51ABEFECF004ECE88 /* FFGLConfigurationWindowController.m */,
+				F4DB00781AC4D323005D2883 /* Resources */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F445AAD31ABEFC5D004ECE88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DBF1271AC37BDD003DF228 /* FFGLConfigurationViewController.h in Headers */,
+				F4DB00721AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h in Headers */,
+				F488E5A21ABF26AF00541B6B /* firefly.h in Headers */,
+				F4DBF12C1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h in Headers */,
+				F488E59D1ABF26AF00541B6B /* arrow.h in Headers */,
+				F488E5AB1ABF26AF00541B6B /* utils.h in Headers */,
+				F445AAF61ABF02D4004ECE88 /* FFGLUserDefaults+Constants.h in Headers */,
+				F4EDB2A61ABF5FDD00F2564B /* FFGLSecondaryBox.h in Headers */,
+				F445AAED1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h in Headers */,
+				F445AAE71ABEFECF004ECE88 /* FFGLConfigurationWindowController.h in Headers */,
+				F4DBF1211AC376B6003DF228 /* FFGLSceneSettings.h in Headers */,
+				F4DB006A1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h in Headers */,
+				F488E5A91ABF26AF00541B6B /* tail.h in Headers */,
+				F488E59F1ABF26AF00541B6B /* bait.h in Headers */,
+				F488E5A41ABF26AF00541B6B /* modes.h in Headers */,
+				F445AADC1ABEFC5D004ECE88 /* FFGLFirefliesView.h in Headers */,
+				F4E451671ABF713E00424DD7 /* FFGLTabButtonCell.h in Headers */,
+				F488E5A71ABF26AF00541B6B /* scene.h in Headers */,
+				F4EDB2A41ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h in Headers */,
+				F488E5A01ABF26AF00541B6B /* control.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F445AAD51ABEFC5D004ECE88 /* Fireflies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F445AAE11ABEFC5D004ECE88 /* Build configuration list for PBXNativeTarget "Fireflies" */;
+			buildPhases = (
+				F445AAD11ABEFC5D004ECE88 /* Sources */,
+				F445AAD21ABEFC5D004ECE88 /* Frameworks */,
+				F445AAD31ABEFC5D004ECE88 /* Headers */,
+				F445AAD41ABEFC5D004ECE88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F488E5D11ABF318D00541B6B /* PBXTargetDependency */,
+			);
+			name = Fireflies;
+			productName = Fireflies;
+			productReference = F445AAD61ABEFC5D004ECE88 /* Fireflies.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F445AACD1ABEFC5D004ECE88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					F445AAD51ABEFC5D004ECE88 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = F445AAD01ABEFC5D004ECE88 /* Build configuration list for PBXProject "Fireflies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F445AACC1ABEFC5D004ECE88;
+			productRefGroup = F445AAD71ABEFC5D004ECE88 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F488E5C51ABF316400541B6B /* Products */;
+					ProjectRef = F488E5C41ABF316400541B6B /* libgfx.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F445AAD51ABEFC5D004ECE88 /* Fireflies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F488E5CB1ABF316400541B6B /* libgfx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgfx.a;
+			remoteRef = F488E5CA1ABF316400541B6B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F488E5CD1ABF316400541B6B /* t-gui.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "t-gui.app";
+			remoteRef = F488E5CC1ABF316400541B6B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F488E5CF1ABF316400541B6B /* t-vec */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "t-vec";
+			remoteRef = F488E5CE1ABF316400541B6B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F445AAD41ABEFC5D004ECE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DBF12E1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib in Resources */,
+				F4DB00741AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib in Resources */,
+				F4DB006C1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib in Resources */,
+				F445AAEF1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib in Resources */,
+				F445AAE91ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F445AAD11ABEFC5D004ECE88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F445AADE1ABEFC5D004ECE88 /* FFGLFirefliesView.mm in Sources */,
+				F4E451681ABF713E00424DD7 /* FFGLTabButtonCell.m in Sources */,
+				F445AAF71ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m in Sources */,
+				F488E5AA1ABF26AF00541B6B /* utils.cpp in Sources */,
+				F488E5A61ABF26AF00541B6B /* scene.cpp in Sources */,
+				F4DB006B1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m in Sources */,
+				F445AAEE1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m in Sources */,
+				F4DBF1281AC37BDD003DF228 /* FFGLConfigurationViewController.m in Sources */,
+				F4EDB2A51ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m in Sources */,
+				F488E5A11ABF26AF00541B6B /* firefly.cpp in Sources */,
+				F488E5A31ABF26AF00541B6B /* modes.cpp in Sources */,
+				F488E59E1ABF26AF00541B6B /* bait.cpp in Sources */,
+				F4DBF1221AC376B6003DF228 /* FFGLSceneSettings.m in Sources */,
+				F488E5A81ABF26AF00541B6B /* tail.cpp in Sources */,
+				F445AAE81ABEFECF004ECE88 /* FFGLConfigurationWindowController.m in Sources */,
+				F4DBF12D1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m in Sources */,
+				F4DB00731AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.m in Sources */,
+				F488E59C1ABF26AF00541B6B /* arrow.cpp in Sources */,
+				F4EDB2A71ABF5FDD00F2564B /* FFGLSecondaryBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F488E5D11ABF318D00541B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libgfx;
+			targetProxy = F488E5D01ABF318D00541B6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F445AADF1ABEFC5D004ECE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F445AAE01ABEFC5D004ECE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F445AAE21ABEFC5D004ECE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fireflies/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "Fireflies/**";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F445AAE31ABEFC5D004ECE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fireflies/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "Fireflies/**";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F445AAD01ABEFC5D004ECE88 /* Build configuration list for PBXProject "Fireflies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F445AADF1ABEFC5D004ECE88 /* Debug */,
+				F445AAE01ABEFC5D004ECE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F445AAE11ABEFC5D004ECE88 /* Build configuration list for PBXNativeTarget "Fireflies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F445AAE21ABEFC5D004ECE88 /* Debug */,
+				F445AAE31ABEFC5D004ECE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F445AACD1ABEFC5D004ECE88 /* Project object */;
+}

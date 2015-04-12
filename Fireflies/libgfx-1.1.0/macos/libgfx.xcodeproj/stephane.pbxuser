@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = F4D4F76D10480D0A00702B65 /* t-gui */;
+		activeTarget = D2AAC045055464E500DB518D /* libgfx */;
+		codeSenseManager = F4D4F78010480DCC00702B65 /* Code sense */;
+		executables = (
+			F4D4F76D10480D0A00702B65 /* t-gui */,
+			F4D4F76E10480D0A00702B65 /* t-vec */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					614,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 273157651;
+			PBXWorkspaceStateSaveDate = 273157651;
+		};
+		perUserProjectItems = {
+			F4D4F79210480E0300702B65 /* PBXTextBookmark */ = F4D4F79210480E0300702B65 /* PBXTextBookmark */;
+			F4D4F7A610480E2D00702B65 /* PBXTextBookmark */ = F4D4F7A610480E2D00702B65 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F4D4F77F10480DCC00702B65 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1D5D8DAC08B3A0CF009C84F9 /* t-gui */ = {
+		activeExec = 0;
+		executables = (
+			F4D4F76D10480D0A00702B65 /* t-gui */,
+		);
+	};
+	1D5D8E8808B3A813009C84F9 /* t-vec */ = {
+		activeExec = 0;
+		executables = (
+			F4D4F76E10480D0A00702B65 /* t-vec */,
+		);
+	};
+	1D5F0B8708B399390048C9A2 /* raster.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {804, 1568}}";
+			sepNavSelRange = "{1213, 0}";
+			sepNavVisRange = "{677, 1083}";
+		};
+	};
+	D2AAC045055464E500DB518D /* libgfx */ = {
+		activeExec = 0;
+	};
+	F4D4F76D10480D0A00702B65 /* t-gui */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "t-gui";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F4D4F76E10480D0A00702B65 /* t-vec */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "t-vec";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F4D4F77F10480DCC00702B65 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F4D4F78010480DCC00702B65 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F4D4F79210480E0300702B65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D5F0B8708B399390048C9A2 /* raster.cxx */;
+		name = "raster.cxx: 51";
+		rLen = 0;
+		rLoc = 1213;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 677;
+	};
+	F4D4F7A610480E2D00702B65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D5F0B8708B399390048C9A2 /* raster.cxx */;
+		name = "raster.cxx: 51";
+		rLen = 0;
+		rLoc = 1213;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 677;
+	};
+}

@@ -1,0 +1,38 @@
+# $Id: gfx-config.in 343 2002-06-13 18:34:59Z garland $
+
+CC = gcc
+CXX = g++
+RANLIB = ranlib
+RM = /bin/rm
+FLTKCONFIG = :
+
+WIN_FLAGS = 
+WIN_LFLAGS = 
+CFLAGS = -g -O2  -Wall -Wno-sign-compare -I/Users/stephane/Projects Snow leopard/FireFlies for OS X/libgfx-1.1.0/include -DHAVE_CONFIG_H $(WIN_FLAGS)
+CXXFLAGS = -g -O2  -Wall -Wno-sign-compare -I/Users/stephane/Projects Snow leopard/FireFlies for OS X/libgfx-1.1.0/include -DHAVE_CONFIG_H $(WIN_FLAGS)
+LDFLAGS =  -L/Users/stephane/Projects Snow leopard/FireFlies for OS X/libgfx-1.1.0/src $(WIN_LFLAGS)
+
+WIN_LIBS  =  -framework Carbon -framework ApplicationServices 
+WIN_DLIBS  =  -framework Carbon -framework ApplicationServices 
+IMG_LIBS =  -lz
+GL_LIBS = -framework AGL -framework OpenGL
+FLTK_LIBS = -lfltk
+GUI_LIBS = $(FLTK_LIBS) $(IMG_LIBS) $(GL_LIBS) $(WIN_LIBS)
+
+CC_DEPEND = $(CC) -M $(CFLAGS)
+CXX_DEPEND = $(CXX) -M $(CXXFLAGS)
+
+.SUFFIXES:
+.SUFFIXES: .fl .c .cc .cxx .o
+
+.c.o:
+	$(CC) -c $(CFLAGS) $<
+
+.cxx.o:
+	$(CXX) -c $(CXXFLAGS) $<
+
+.fl.cxx:
+	fluid -c $<
+
+.fl.h:
+	fluid -c $<

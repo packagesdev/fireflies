@@ -1,0 +1,8 @@
+How to build this thing on Mac OS X:
+
+1) This screen effect is using the gfx library.
+
+The sources for this library are in the archive libgfx-1.0.1.tar.gz. It can be easily compiled on Mac OS X using the command line. For lazy people (like me), I included the compiled static library in the libgfx folder.
+
+2) As it's supposed to be, all you have to do to compile is to open the Fireflies.pbproj folder and type Command + B.
+

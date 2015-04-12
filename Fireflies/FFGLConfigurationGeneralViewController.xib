@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7525" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7525"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="FFGLConfigurationGeneralViewController">
+            <connections>
+                <outlet property="_baitAccelerationStepper" destination="pfR-US-ikK" id="gN0-ct-kak"/>
+                <outlet property="_baitAccelerationTextField" destination="DLS-IK-0TN" id="sIk-jL-kgU"/>
+                <outlet property="_baitSpeedStepper" destination="CQe-4C-p4Z" id="tDA-ma-GyQ"/>
+                <outlet property="_baitSpeedTextField" destination="3W9-qa-JVr" id="DhR-9b-CXE"/>
+                <outlet property="_colorCycleSpeedStepper" destination="Jwo-Qg-9Nf" id="nWM-mK-kzq"/>
+                <outlet property="_colorCycleSpeedTextField" destination="0nb-Dg-4hH" id="KOb-Cs-Yb4"/>
+                <outlet property="_drawBaits_" destination="7Gg-Fz-y3M" id="v57-VL-4Is"/>
+                <outlet property="_fireflyAccelerationStepper" destination="0EI-Rn-4uh" id="R4R-kG-mb7"/>
+                <outlet property="_fireflyAccelerationTextField" destination="F2h-qD-i5K" id="qKo-i3-vDk"/>
+                <outlet property="_fireflySizeStepper" destination="O7R-Th-s4q" id="rdc-Fj-5YU"/>
+                <outlet property="_fireflySizeTextField" destination="Krr-Aw-nrD" id="qmK-hq-Dg3"/>
+                <outlet property="_fireflySpeedStepper" destination="0t7-4U-Jvn" id="tna-iM-O7A"/>
+                <outlet property="_fireflySpeedTextField" destination="nxr-G0-8PJ" id="tjR-7q-jCx"/>
+                <outlet property="_glowFactorStepper" destination="eqa-MI-Nly" id="hxo-Ln-79Z"/>
+                <outlet property="_glowFactorTextField" destination="TFe-Fn-SMJ" id="qUM-u2-GJN"/>
+                <outlet property="_maximumBaitsStepper" destination="ICy-Hb-zcV" id="YwQ-qh-Sek"/>
+                <outlet property="_maximumBaitsTextField" destination="awN-du-B7P" id="ASg-r9-wNH"/>
+                <outlet property="_maximumFirefliesStepper" destination="6Ev-UZ-yzX" id="zxW-93-Shy"/>
+                <outlet property="_maximumFirefliesTextField" destination="Czi-yv-tmZ" id="tQe-Zd-WQ7"/>
+                <outlet property="_minimumBaitsStepper" destination="p9t-7s-2S9" id="oTe-g2-wEM"/>
+                <outlet property="_minimumBaitsTextField" destination="gil-s8-Yde" id="eri-dO-Dbe"/>
+                <outlet property="_minimumFirefliesStepper" destination="6yh-Yr-vkw" id="Pdh-rP-cLl"/>
+                <outlet property="_minimumFirefliesTextField" destination="d9g-m7-Pfe" id="fDI-4S-GwC"/>
+                <outlet property="_tailLengthStepper" destination="APa-tX-V8L" id="6RG-Qe-6Xj"/>
+                <outlet property="_tailLengthTextField" destination="eo1-ZK-LcB" id="pPo-Zc-6i8"/>
+                <outlet property="_tailOpacityStepper" destination="6tZ-Ac-L01" id="udO-lA-9Pz"/>
+                <outlet property="_tailOpacityTextField" destination="Qqb-ws-Rul" id="Vq1-sx-yOu"/>
+                <outlet property="_tailWidthStepper" destination="h8z-fA-lQV" id="DoM-NC-k7F"/>
+                <outlet property="_tailWidthTextField" destination="L2f-F7-nI1" id="fII-yg-poZ"/>
+                <outlet property="_windSpeedStepper" destination="uk5-Ay-p2L" id="Gn7-yZ-X3M"/>
+                <outlet property="_windSpeedTextField" destination="bUG-rj-ogc" id="Y2h-ME-BdH"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-mo-xeY">
+            <rect key="frame" x="-1" y="0.0" width="525" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" id="ujZ-76-Yv7">
+                    <rect key="frame" x="304" y="112" width="112" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Bait acceleration:" id="EV7-PU-EKM">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="kVw-Xr-Xx9">
+                    <rect key="frame" x="68" y="112" width="88" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Bait speed:" id="co7-q9-KWI">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="cT9-QT-1Or">
+                    <rect key="frame" x="289" y="142" width="127" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Firefly acceleration:" id="5Sm-wk-EBX">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="JBs-B2-FR0">
+                    <rect key="frame" x="297" y="232" width="119" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Minimum fireflies:" id="UbY-p4-yem">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="CQe-4C-p4Z">
+                    <rect key="frame" x="229" y="108" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" increment="5" minValue="10" maxValue="200" doubleValue="10" id="jie-F8-6n2"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="3W9-qa-JVr" id="pwR-3Q-KpC"/>
+                    </connections>
+                </stepper>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="O7R-Th-s4q">
+                    <rect key="frame" x="489" y="168" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="10" maxValue="30" doubleValue="10" id="bz0-jG-APp"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="Krr-Aw-nrD" id="uVF-I3-AJE"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="Vlf-6m-ri8">
+                    <rect key="frame" x="316" y="22" width="100" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Wind speed:" id="wn1-YL-jjl">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="6tZ-Ac-L01">
+                    <rect key="frame" x="229" y="18" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="28j-ke-M1b"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="Qqb-ws-Rul" id="Elp-cd-yOY"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="d9g-m7-Pfe">
+                    <rect key="frame" x="422" y="230" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="E0i-fF-iKx">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="gil-s8-Yde">
+                    <rect key="frame" x="162" y="230" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="KXM-Ta-NKI">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="TFe-Fn-SMJ">
+                    <rect key="frame" x="422" y="80" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="pyr-wK-KXA">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="F2h-qD-i5K">
+                    <rect key="frame" x="422" y="140" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="dzP-kL-KoI">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="14b-U0-FWW">
+                    <rect key="frame" x="335" y="82" width="81" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Glow factor:" id="c4k-tO-J5q">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="awN-du-B7P">
+                    <rect key="frame" x="162" y="200" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="TAn-hs-waQ">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="ICy-Hb-zcV">
+                    <rect key="frame" x="229" y="198" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="20" doubleValue="10" id="i3D-aU-fmx"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="awN-du-B7P" id="tQa-Ju-hdu"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="0nb-Dg-4hH">
+                    <rect key="frame" x="162" y="80" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="C17-r6-bQJ">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="Jwo-Qg-9Nf">
+                    <rect key="frame" x="229" y="78" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="5" maxValue="50" doubleValue="5" id="wEN-QZ-Sj1"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="0nb-Dg-4hH" id="hN8-hw-Zre"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="evm-tE-lrA">
+                    <rect key="frame" x="50" y="202" width="106" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Maximum baits:" id="izG-A2-A7U">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="eqa-MI-Nly">
+                    <rect key="frame" x="489" y="78" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="30" id="BpE-Ie-OFX"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="TFe-Fn-SMJ" id="BM2-Ps-Onw"/>
+                    </connections>
+                </stepper>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="pfR-US-ikK">
+                    <rect key="frame" x="489" y="108" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" increment="50" minValue="50" maxValue="1000" doubleValue="50" id="CY1-Dp-9zf"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="DLS-IK-0TN" id="rCU-EO-fwl"/>
+                    </connections>
+                </stepper>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="0t7-4U-Jvn">
+                    <rect key="frame" x="229" y="138" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" increment="5" minValue="10" maxValue="200" doubleValue="10" id="S2G-eG-c3C"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="nxr-G0-8PJ" id="dhr-R6-A0h"/>
+                    </connections>
+                </stepper>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="6Ev-UZ-yzX">
+                    <rect key="frame" x="489" y="198" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" increment="5" minValue="40" maxValue="300" doubleValue="40" id="0Ey-Pe-iUA"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="Czi-yv-tmZ" id="oZG-7c-7iC"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="Qqb-ws-Rul">
+                    <rect key="frame" x="162" y="20" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="2wG-w5-e6W">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="L2f-F7-nI1">
+                    <rect key="frame" x="422" y="50" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="1te-AD-kVh">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="p9t-7s-2S9">
+                    <rect key="frame" x="229" y="228" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="10" doubleValue="1" id="OEZ-Of-2Q5"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="gil-s8-Yde" id="ezP-ik-uD7"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="pVS-0e-QJO">
+                    <rect key="frame" x="340" y="172" width="76" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Firefly size:" id="pBC-1E-F4W">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="nxr-G0-8PJ">
+                    <rect key="frame" x="162" y="140" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="PgR-cW-ujK">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="6yh-Yr-vkw">
+                    <rect key="frame" x="489" y="228" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" increment="5" minValue="20" maxValue="200" doubleValue="20" id="IPS-dj-zeX"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="d9g-m7-Pfe" id="xZQ-fR-8Ul"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="bUG-rj-ogc">
+                    <rect key="frame" x="422" y="20" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="4Bl-dO-9LL">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="h8z-fA-lQV">
+                    <rect key="frame" x="489" y="48" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" increment="0.5" minValue="1" maxValue="50" doubleValue="1" id="XU5-JI-VX3"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="L2f-F7-nI1" id="bLX-PC-k26"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="D3h-sY-mH2">
+                    <rect key="frame" x="35" y="82" width="121" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Color cycle speed:" id="R3u-qI-WOU">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Czi-yv-tmZ">
+                    <rect key="frame" x="422" y="200" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="CWK-qg-kAf">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="ra6-mx-VfX">
+                    <rect key="frame" x="75" y="22" width="81" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Tail opacity:" id="4Rf-nU-92h">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="kDn-oD-LLU">
+                    <rect key="frame" x="345" y="52" width="71" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Tail width:" id="xPb-qW-yBT">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Wlm-eG-t9L">
+                    <rect key="frame" x="50" y="142" width="106" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Firefly speed:" id="KjK-tq-wtb">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="eo1-ZK-LcB">
+                    <rect key="frame" x="162" y="50" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="JLe-gD-4JH">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="z5G-IW-wiY">
+                    <rect key="frame" x="50" y="232" width="106" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Minimum baits:" id="kuI-kn-cXv">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="DLS-IK-0TN">
+                    <rect key="frame" x="422" y="110" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="s2F-rz-qLB">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="mqF-7t-LI1">
+                    <rect key="frame" x="80" y="52" width="76" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Tail length:" id="mz2-Op-wXG">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="uk5-Ay-p2L">
+                    <rect key="frame" x="489" y="18" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="9RP-60-m29"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="bUG-rj-ogc" id="I2u-Bh-Evo"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="Krr-Aw-nrD">
+                    <rect key="frame" x="422" y="170" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="7Sv-FV-IK2">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="0EI-Rn-4uh">
+                    <rect key="frame" x="489" y="138" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" increment="50" minValue="50" maxValue="1000" doubleValue="50" id="tvW-nC-tw7"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="F2h-qD-i5K" id="tTu-40-my3"/>
+                    </connections>
+                </stepper>
+                <button id="7Gg-Fz-y3M">
+                    <rect key="frame" x="160" y="171" width="89" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Draw baits" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="1P4-TC-aMP">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <textField verticalHuggingPriority="750" id="3W9-qa-JVr">
+                    <rect key="frame" x="162" y="110" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="MhD-Uz-Y5l">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="APa-tX-V8L">
+                    <rect key="frame" x="229" y="48" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" increment="0.5" minValue="1" maxValue="50" doubleValue="1" id="biH-tA-cOt"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="eo1-ZK-LcB" id="PqU-GJ-WXY"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="mbJ-ei-do4">
+                    <rect key="frame" x="294" y="202" width="122" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Maximum fireflies:" id="I23-uH-Ylw">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <point key="canvasLocation" x="612.5" y="532"/>
+        </customView>
+    </objects>
+</document>
