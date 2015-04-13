@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>43DBB887-54DE-4E69-835D-EF302EC3B2DB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fireflies</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>70AF134BCF5EDCD3462B4FEE74F6ABB99492DD73</key>
+		<string>https://github.com/packagesdev/fireflies.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fireflies.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>70AF134BCF5EDCD3462B4FEE74F6ABB99492DD73</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/packagesdev/fireflies.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>70AF134BCF5EDCD3462B4FEE74F6ABB99492DD73</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>70AF134BCF5EDCD3462B4FEE74F6ABB99492DD73</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fireflies</string>
+		</dict>
+	</array>
+</dict>
+</plist>

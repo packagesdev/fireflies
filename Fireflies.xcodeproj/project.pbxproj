@@ -36,6 +36,7 @@
 		F488E5AB1ABF26AF00541B6B /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E59A1ABF26AF00541B6B /* utils.h */; };
 		F488E5D21ABF319300541B6B /* libgfx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F488E5CB1ABF316400541B6B /* libgfx.a */; };
 		F488E5D81ABF361D00541B6B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F488E5D71ABF361D00541B6B /* libstdc++.dylib */; };
+		F4CD152E1ADBC84D00F77C33 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4CD152D1ADBC84D00F77C33 /* Localizable.strings */; };
 		F4DB006A1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DB00671AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h */; };
 		F4DB006B1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB00681AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m */; };
 		F4DB006C1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DB00691AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib */; };
@@ -120,6 +121,7 @@
 		F488E59A1ABF26AF00541B6B /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = "GPL Code/utils.h"; sourceTree = "<group>"; };
 		F488E5C41ABF316400541B6B /* libgfx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libgfx.xcodeproj; path = "Fireflies/libgfx-1.1.0/macos/libgfx.xcodeproj"; sourceTree = "<group>"; };
 		F488E5D71ABF361D00541B6B /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		F4CD152D1ADBC84D00F77C33 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		F4DB00671AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationMajorModeViewController.h; sourceTree = "<group>"; };
 		F4DB00681AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationMajorModeViewController.m; sourceTree = "<group>"; };
 		F4DB00691AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
@@ -184,18 +186,19 @@
 				F445AADB1ABEFC5D004ECE88 /* FFGLFirefliesView.h */,
 				F445AADD1ABEFC5D004ECE88 /* FFGLFirefliesView.mm */,
 				F4EDB29D1ABF5FC600F2564B /* Configuration */,
-				F445AAD91ABEFC5D004ECE88 /* Supporting Files */,
+				F445AAD91ABEFC5D004ECE88 /* Resources */,
 				F4DB00751AC4D29E005D2883 /* Frameworks */,
 			);
 			path = Fireflies;
 			sourceTree = "<group>";
 		};
-		F445AAD91ABEFC5D004ECE88 /* Supporting Files */ = {
+		F445AAD91ABEFC5D004ECE88 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				F445AADA1ABEFC5D004ECE88 /* Info.plist */,
+				F4CD152D1ADBC84D00F77C33 /* Localizable.strings */,
 			);
-			name = "Supporting Files";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F488E58A1ABF268F00541B6B /* GPL Code */ = {
@@ -240,7 +243,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F4DB00771AC4D315005D2883 /* Widgets */ = {
+		F4DB00771AC4D315005D2883 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
 				F4E451651ABF713E00424DD7 /* FFGLTabButtonCell.h */,
@@ -250,7 +253,7 @@
 				F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */,
 				F4EDB2A31ABF5FDD00F2564B /* FFGLSecondaryBox.m */,
 			);
-			name = Widgets;
+			name = "Custom Views";
 			sourceTree = "<group>";
 		};
 		F4DB00781AC4D323005D2883 /* Resources */ = {
@@ -268,7 +271,7 @@
 		F4EDB29D1ABF5FC600F2564B /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				F4DB00771AC4D315005D2883 /* Widgets */,
+				F4DB00771AC4D315005D2883 /* Custom Views */,
 				F445AAEA1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h */,
 				F445AAEB1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m */,
 				F4DBF1251AC37BDD003DF228 /* FFGLConfigurationViewController.h */,
@@ -404,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DBF12E1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib in Resources */,
+				F4CD152E1ADBC84D00F77C33 /* Localizable.strings in Resources */,
 				F4DB00741AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib in Resources */,
 				F4DB006C1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib in Resources */,
 				F445AAEF1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib in Resources */,

@@ -15,8 +15,10 @@
 
 @interface FFGLAboutBoxWindowController ()
 {
-    IBOutlet NSTextField *_versionLabel;
+	IBOutlet NSTextField *_nameLabel;
+	IBOutlet NSTextField *_versionLabel;
     IBOutlet NSTextField *_copyrightLabel;
+	IBOutlet NSTextField *_portCreditsLabel;
 }
 
 @end
@@ -35,10 +37,14 @@
     NSBundle * tBundle=[NSBundle bundleForClass:[self class]];
     
     NSDictionary * tInfoDictionary=[tBundle infoDictionary];
-    
-    [_versionLabel setStringValue:[NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Version %@ (%@)",@"Localizable",tBundle,@""),[tInfoDictionary objectForKey:@"CFBundleShortVersionString"],[tInfoDictionary objectForKey:@"CFBundleVersion"]]];
+	
+	[_nameLabel setStringValue:tInfoDictionary[@"CFBundleName"]];
+	
+    [_versionLabel setStringValue:[NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Version %@ (%@)",@"Localizable",tBundle,@""),tInfoDictionary[@"CFBundleShortVersionString"],tInfoDictionary[@"CFBundleVersion"]]];
     
     [_copyrightLabel setStringValue:[NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Legal terms",@"Localizable",tBundle,@""),[[NSCalendarDate date] yearOfCommonEra]]];
+	
+	[_portCreditsLabel setStringValue:NSLocalizedStringFromTableInBundle(@"Port credits",@"Localizable",tBundle,@"")];
 }
 
 @end
