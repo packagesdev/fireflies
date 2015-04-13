@@ -23,6 +23,8 @@
 
 #import "FFGLConfigurationViewController.h"
 
+#import "FFGLTabHeaderView.h"
+
 enum
 {
     FFGLTabGeneralTag=0,
@@ -32,7 +34,7 @@ enum
 
 @interface FFGLConfigurationWindowController ()
 {
-    IBOutlet NSSegmentedControl *_segmentedControl;
+    IBOutlet FFGLTabHeaderView *_tabHeaderView;
     
     IBOutlet NSView *_segmentView;
 
@@ -87,8 +89,8 @@ enum
     
         // Select and show General View
     
-    // A COMPLETER
-    
+	[((NSButton *)[_tabHeaderView viewWithTag:FFGLTabGeneralTag]) setState:NSOnState];
+	
     [self showViewControllerNamed:@"FFGLConfigurationGeneralViewController"];
     
     // Main Screen
@@ -121,7 +123,7 @@ enum
 
 - (IBAction)showSegmentedView:(id)sender
 {
-    NSInteger tTag=[[sender selectedCell] tag];
+    NSInteger tTag=[sender tag];
     
     switch(tTag)
     {

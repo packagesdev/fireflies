@@ -36,6 +36,10 @@
 		F488E5AB1ABF26AF00541B6B /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E59A1ABF26AF00541B6B /* utils.h */; };
 		F488E5D21ABF319300541B6B /* libgfx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F488E5CB1ABF316400541B6B /* libgfx.a */; };
 		F488E5D81ABF361D00541B6B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F488E5D71ABF361D00541B6B /* libstdc++.dylib */; };
+		F4A6363D1ADC35DB0097AA55 /* FFGLTabHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A6363B1ADC35DB0097AA55 /* FFGLTabHeaderView.h */; };
+		F4A6363E1ADC35DB0097AA55 /* FFGLTabHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A6363C1ADC35DB0097AA55 /* FFGLTabHeaderView.m */; };
+		F4A636431ADC35F10097AA55 /* FFGLTabButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A636411ADC35F10097AA55 /* FFGLTabButton.h */; };
+		F4A636441ADC35F10097AA55 /* FFGLTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A636421ADC35F10097AA55 /* FFGLTabButton.m */; };
 		F4CD152E1ADBC84D00F77C33 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4CD152D1ADBC84D00F77C33 /* Localizable.strings */; };
 		F4DB006A1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DB00671AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h */; };
 		F4DB006B1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB00681AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m */; };
@@ -50,8 +54,6 @@
 		F4DBF12C1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBF1291AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h */; };
 		F4DBF12D1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF12A1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m */; };
 		F4DBF12E1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DBF12B1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib */; };
-		F4E451671ABF713E00424DD7 /* FFGLTabButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E451651ABF713E00424DD7 /* FFGLTabButtonCell.h */; };
-		F4E451681ABF713E00424DD7 /* FFGLTabButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E451661ABF713E00424DD7 /* FFGLTabButtonCell.m */; };
 		F4EDB2A41ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */; };
 		F4EDB2A51ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */; };
 		F4EDB2A61ABF5FDD00F2564B /* FFGLSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */; };
@@ -121,7 +123,11 @@
 		F488E59A1ABF26AF00541B6B /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = "GPL Code/utils.h"; sourceTree = "<group>"; };
 		F488E5C41ABF316400541B6B /* libgfx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libgfx.xcodeproj; path = "Fireflies/libgfx-1.1.0/macos/libgfx.xcodeproj"; sourceTree = "<group>"; };
 		F488E5D71ABF361D00541B6B /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
-		F4CD152D1ADBC84D00F77C33 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F4A6363B1ADC35DB0097AA55 /* FFGLTabHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLTabHeaderView.h; sourceTree = "<group>"; };
+		F4A6363C1ADC35DB0097AA55 /* FFGLTabHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLTabHeaderView.m; sourceTree = "<group>"; };
+		F4A636411ADC35F10097AA55 /* FFGLTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLTabButton.h; sourceTree = "<group>"; };
+		F4A636421ADC35F10097AA55 /* FFGLTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLTabButton.m; sourceTree = "<group>"; };
+		F4CD152D1ADBC84D00F77C33 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		F4DB00671AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationMajorModeViewController.h; sourceTree = "<group>"; };
 		F4DB00681AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationMajorModeViewController.m; sourceTree = "<group>"; };
 		F4DB00691AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
@@ -135,8 +141,6 @@
 		F4DBF1291AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationGeneralViewController.h; sourceTree = "<group>"; };
 		F4DBF12A1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationGeneralViewController.m; sourceTree = "<group>"; };
 		F4DBF12B1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationGeneralViewController.xib; sourceTree = "<group>"; };
-		F4E451651ABF713E00424DD7 /* FFGLTabButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLTabButtonCell.h; sourceTree = "<group>"; };
-		F4E451661ABF713E00424DD7 /* FFGLTabButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLTabButtonCell.m; sourceTree = "<group>"; };
 		F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLLightGrayBackgroundView.h; sourceTree = "<group>"; };
 		F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLLightGrayBackgroundView.m; sourceTree = "<group>"; };
 		F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLSecondaryBox.h; sourceTree = "<group>"; };
@@ -246,8 +250,10 @@
 		F4DB00771AC4D315005D2883 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				F4E451651ABF713E00424DD7 /* FFGLTabButtonCell.h */,
-				F4E451661ABF713E00424DD7 /* FFGLTabButtonCell.m */,
+				F4A6363B1ADC35DB0097AA55 /* FFGLTabHeaderView.h */,
+				F4A6363C1ADC35DB0097AA55 /* FFGLTabHeaderView.m */,
+				F4A636411ADC35F10097AA55 /* FFGLTabButton.h */,
+				F4A636421ADC35F10097AA55 /* FFGLTabButton.m */,
 				F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */,
 				F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */,
 				F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */,
@@ -297,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DBF1271AC37BDD003DF228 /* FFGLConfigurationViewController.h in Headers */,
+				F4A6363D1ADC35DB0097AA55 /* FFGLTabHeaderView.h in Headers */,
 				F4DB00721AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h in Headers */,
 				F488E5A21ABF26AF00541B6B /* firefly.h in Headers */,
 				F4DBF12C1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h in Headers */,
@@ -306,13 +313,13 @@
 				F4EDB2A61ABF5FDD00F2564B /* FFGLSecondaryBox.h in Headers */,
 				F445AAED1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h in Headers */,
 				F445AAE71ABEFECF004ECE88 /* FFGLConfigurationWindowController.h in Headers */,
+				F4A636431ADC35F10097AA55 /* FFGLTabButton.h in Headers */,
 				F4DBF1211AC376B6003DF228 /* FFGLSceneSettings.h in Headers */,
 				F4DB006A1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h in Headers */,
 				F488E5A91ABF26AF00541B6B /* tail.h in Headers */,
 				F488E59F1ABF26AF00541B6B /* bait.h in Headers */,
 				F488E5A41ABF26AF00541B6B /* modes.h in Headers */,
 				F445AADC1ABEFC5D004ECE88 /* FFGLFirefliesView.h in Headers */,
-				F4E451671ABF713E00424DD7 /* FFGLTabButtonCell.h in Headers */,
 				F488E5A71ABF26AF00541B6B /* scene.h in Headers */,
 				F4EDB2A41ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h in Headers */,
 				F488E5A01ABF26AF00541B6B /* control.h in Headers */,
@@ -423,17 +430,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F445AADE1ABEFC5D004ECE88 /* FFGLFirefliesView.mm in Sources */,
-				F4E451681ABF713E00424DD7 /* FFGLTabButtonCell.m in Sources */,
 				F445AAF71ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m in Sources */,
 				F488E5AA1ABF26AF00541B6B /* utils.cpp in Sources */,
 				F488E5A61ABF26AF00541B6B /* scene.cpp in Sources */,
 				F4DB006B1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m in Sources */,
 				F445AAEE1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m in Sources */,
+				F4A636441ADC35F10097AA55 /* FFGLTabButton.m in Sources */,
 				F4DBF1281AC37BDD003DF228 /* FFGLConfigurationViewController.m in Sources */,
 				F4EDB2A51ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m in Sources */,
 				F488E5A11ABF26AF00541B6B /* firefly.cpp in Sources */,
 				F488E5A31ABF26AF00541B6B /* modes.cpp in Sources */,
 				F488E59E1ABF26AF00541B6B /* bait.cpp in Sources */,
+				F4A6363E1ADC35DB0097AA55 /* FFGLTabHeaderView.m in Sources */,
 				F4DBF1221AC376B6003DF228 /* FFGLSceneSettings.m in Sources */,
 				F488E5A81ABF26AF00541B6B /* tail.cpp in Sources */,
 				F445AAE81ABEFECF004ECE88 /* FFGLConfigurationWindowController.m in Sources */,

@@ -9,6 +9,7 @@
             <connections>
                 <outlet property="_mainScreenCheckBox" destination="ite-3N-mfr" id="nbt-mf-qwp"/>
                 <outlet property="_segmentView" destination="b2b-Nf-njF" id="Mmy-y2-tyT"/>
+                <outlet property="_tabHeaderView" destination="zv3-mh-8q5" id="XVA-Sh-r09"/>
                 <outlet property="window" destination="F0z-JX-Cv5" id="OCb-Du-Xk6"/>
             </connections>
         </customObject>
@@ -57,40 +58,6 @@
                             </textField>
                         </subviews>
                     </customView>
-                    <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autorecalculatesCellSize="YES" id="hbn-gj-eXi">
-                        <rect key="frame" x="91" y="381" width="344" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        <size key="cellSize" width="112" height="32"/>
-                        <size key="intercellSpacing" width="4" height="2"/>
-                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" inset="2" id="rvU-Tq-a6r">
-                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <cells>
-                            <column>
-                                <buttonCell type="bevel" title="General" bezelStyle="rounded" alignment="center" state="on" inset="2" id="cIU-yh-oN7" customClass="FFGLTabButtonCell">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </column>
-                            <column>
-                                <buttonCell type="bevel" title="Per-Swarm Mode" bezelStyle="rounded" alignment="center" tag="1" inset="2" id="Osu-Fg-zzK" customClass="FFGLTabButtonCell">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </column>
-                            <column>
-                                <buttonCell type="bevel" title="Major Mode" bezelStyle="rounded" alignment="center" tag="2" inset="2" id="KuX-eN-V4Z" customClass="FFGLTabButtonCell">
-                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </column>
-                        </cells>
-                        <connections>
-                            <action selector="showSegmentedView:" target="-2" id="vmO-aC-uFq"/>
-                        </connections>
-                    </matrix>
                     <customView id="b2b-Nf-njF">
                         <rect key="frame" x="0.0" y="109" width="525" height="272"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -123,6 +90,45 @@ Gw
                             <action selector="closeDialog:" target="-2" id="Ggp-3j-fJr"/>
                         </connections>
                     </button>
+                    <customView id="zv3-mh-8q5" customClass="FFGLTabHeaderView">
+                        <rect key="frame" x="1" y="381" width="524" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <button id="r5r-p8-rOX" customClass="FFGLTabButton">
+                                <rect key="frame" x="35" y="7" width="130" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="radio" title="General" bezelStyle="regularSquare" alignment="center" inset="2" id="dxb-D3-6OX">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showSegmentedView:" target="-2" id="uL9-hg-Ahd"/>
+                                </connections>
+                            </button>
+                            <button tag="1" id="mLn-vy-mZS" customClass="FFGLTabButton">
+                                <rect key="frame" x="198" y="7" width="130" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="radio" title="Per-Swarm Mode" bezelStyle="regularSquare" alignment="center" inset="2" id="Bf3-D3-hG8">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showSegmentedView:" target="-2" id="uBR-oN-Pm3"/>
+                                </connections>
+                            </button>
+                            <button tag="2" id="tzr-I2-ce1" customClass="FFGLTabButton">
+                                <rect key="frame" x="361" y="7" width="130" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="radio" title="Major Mode" bezelStyle="regularSquare" alignment="center" inset="2" id="qhL-gq-Ofa">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showSegmentedView:" target="-2" id="NOo-ec-82H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </customView>
                 </subviews>
             </view>
             <connections>
