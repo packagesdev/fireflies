@@ -45,9 +45,12 @@
 {
 	if (_pushed==YES)
 	{
-		[self setState:NSOnState];
+		if ([self state]!=NSOnState)
+		{
+			[self setState:NSOnState];
 		
-		[self sendAction:[self action] to:[self target]];
+			[self sendAction:[self action] to:[self target]];
+		}
 		
 		_pushed=NO;
 		
