@@ -11,7 +11,6 @@
 		F445AADE1ABEFC5D004ECE88 /* FFGLFirefliesView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F445AADD1ABEFC5D004ECE88 /* FFGLFirefliesView.mm */; };
 		F445AAE71ABEFECF004ECE88 /* FFGLConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F445AAE41ABEFECF004ECE88 /* FFGLConfigurationWindowController.h */; };
 		F445AAE81ABEFECF004ECE88 /* FFGLConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F445AAE51ABEFECF004ECE88 /* FFGLConfigurationWindowController.m */; };
-		F445AAE91ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F445AAE61ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib */; };
 		F445AAED1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F445AAEA1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h */; };
 		F445AAEE1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F445AAEB1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m */; };
 		F445AAEF1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F445AAEC1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib */; };
@@ -40,20 +39,21 @@
 		F4A6363E1ADC35DB0097AA55 /* FFGLTabHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A6363C1ADC35DB0097AA55 /* FFGLTabHeaderView.m */; };
 		F4A636431ADC35F10097AA55 /* FFGLTabButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A636411ADC35F10097AA55 /* FFGLTabButton.h */; };
 		F4A636441ADC35F10097AA55 /* FFGLTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A636421ADC35F10097AA55 /* FFGLTabButton.m */; };
-		F4CD152E1ADBC84D00F77C33 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4CD152D1ADBC84D00F77C33 /* Localizable.strings */; };
+		F4D7743C1ADFB7B8000F5945 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D7743A1ADFB7B8000F5945 /* Localizable.strings */; };
+		F4D7743F1ADFB7C4000F5945 /* FFGLConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D7743D1ADFB7C4000F5945 /* FFGLConfigurationWindowController.xib */; };
+		F4D774461ADFB7D1000F5945 /* FFGLConfigurationGeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D774401ADFB7D1000F5945 /* FFGLConfigurationGeneralViewController.xib */; };
+		F4D774471ADFB7D1000F5945 /* FFGLConfigurationMajorModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D774421ADFB7D1000F5945 /* FFGLConfigurationMajorModeViewController.xib */; };
+		F4D774481ADFB7D1000F5945 /* FFGLConfigurationSwarmModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D774441ADFB7D1000F5945 /* FFGLConfigurationSwarmModeViewController.xib */; };
 		F4DB006A1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DB00671AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h */; };
 		F4DB006B1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB00681AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m */; };
-		F4DB006C1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DB00691AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib */; };
 		F4DB00721AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DB006F1AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h */; };
 		F4DB00731AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DB00701AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.m */; };
-		F4DB00741AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DB00711AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib */; };
 		F4DBF1211AC376B6003DF228 /* FFGLSceneSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBF11F1AC376B6003DF228 /* FFGLSceneSettings.h */; };
 		F4DBF1221AC376B6003DF228 /* FFGLSceneSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF1201AC376B6003DF228 /* FFGLSceneSettings.m */; };
 		F4DBF1271AC37BDD003DF228 /* FFGLConfigurationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBF1251AC37BDD003DF228 /* FFGLConfigurationViewController.h */; };
 		F4DBF1281AC37BDD003DF228 /* FFGLConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF1261AC37BDD003DF228 /* FFGLConfigurationViewController.m */; };
 		F4DBF12C1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBF1291AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h */; };
 		F4DBF12D1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF12A1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m */; };
-		F4DBF12E1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DBF12B1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib */; };
 		F4EDB2A41ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */; };
 		F4EDB2A51ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */; };
 		F4EDB2A61ABF5FDD00F2564B /* FFGLSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */; };
@@ -98,7 +98,6 @@
 		F445AADD1ABEFC5D004ECE88 /* FFGLFirefliesView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FFGLFirefliesView.mm; sourceTree = "<group>"; };
 		F445AAE41ABEFECF004ECE88 /* FFGLConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationWindowController.h; sourceTree = "<group>"; };
 		F445AAE51ABEFECF004ECE88 /* FFGLConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationWindowController.m; sourceTree = "<group>"; };
-		F445AAE61ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F445AAEA1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLAboutBoxWindowController.h; sourceTree = "<group>"; };
 		F445AAEB1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLAboutBoxWindowController.m; sourceTree = "<group>"; };
 		F445AAEC1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLAboutBoxWindowController.xib; sourceTree = "<group>"; };
@@ -127,20 +126,26 @@
 		F4A6363C1ADC35DB0097AA55 /* FFGLTabHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLTabHeaderView.m; sourceTree = "<group>"; };
 		F4A636411ADC35F10097AA55 /* FFGLTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLTabButton.h; sourceTree = "<group>"; };
 		F4A636421ADC35F10097AA55 /* FFGLTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLTabButton.m; sourceTree = "<group>"; };
-		F4CD152D1ADBC84D00F77C33 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F4D7743B1ADFB7B8000F5945 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4D7743E1ADFB7C4000F5945 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FFGLConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F4D774411ADFB7D1000F5945 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FFGLConfigurationGeneralViewController.xib; sourceTree = "<group>"; };
+		F4D774431ADFB7D1000F5945 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
+		F4D774451ADFB7D1000F5945 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
+		F4D774491ADFB7F7000F5945 /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4D7744A1ADFB7F7000F5945 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FFGLConfigurationGeneralViewController.xib; sourceTree = "<group>"; };
+		F4D7744B1ADFB7F7000F5945 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
+		F4D7744C1ADFB7F7000F5945 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
+		F4D7744D1ADFB7F7000F5945 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FFGLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4DB00671AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationMajorModeViewController.h; sourceTree = "<group>"; };
 		F4DB00681AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationMajorModeViewController.m; sourceTree = "<group>"; };
-		F4DB00691AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
 		F4DB006F1AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationSwarmModeViewController.h; sourceTree = "<group>"; };
 		F4DB00701AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationSwarmModeViewController.m; sourceTree = "<group>"; };
-		F4DB00711AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
 		F4DBF11F1AC376B6003DF228 /* FFGLSceneSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLSceneSettings.h; sourceTree = "<group>"; };
 		F4DBF1201AC376B6003DF228 /* FFGLSceneSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLSceneSettings.m; sourceTree = "<group>"; };
 		F4DBF1251AC37BDD003DF228 /* FFGLConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationViewController.h; sourceTree = "<group>"; };
 		F4DBF1261AC37BDD003DF228 /* FFGLConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationViewController.m; sourceTree = "<group>"; };
 		F4DBF1291AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationGeneralViewController.h; sourceTree = "<group>"; };
 		F4DBF12A1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationGeneralViewController.m; sourceTree = "<group>"; };
-		F4DBF12B1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFGLConfigurationGeneralViewController.xib; sourceTree = "<group>"; };
 		F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLLightGrayBackgroundView.h; sourceTree = "<group>"; };
 		F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLLightGrayBackgroundView.m; sourceTree = "<group>"; };
 		F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLSecondaryBox.h; sourceTree = "<group>"; };
@@ -200,7 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				F445AADA1ABEFC5D004ECE88 /* Info.plist */,
-				F4CD152D1ADBC84D00F77C33 /* Localizable.strings */,
+				F4D7743A1ADFB7B8000F5945 /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -265,11 +270,11 @@
 		F4DB00781AC4D323005D2883 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F4DBF12B1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib */,
-				F4DB00711AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib */,
-				F4DB00691AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib */,
 				F445AAEC1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib */,
-				F445AAE61ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib */,
+				F4D774401ADFB7D1000F5945 /* FFGLConfigurationGeneralViewController.xib */,
+				F4D774441ADFB7D1000F5945 /* FFGLConfigurationSwarmModeViewController.xib */,
+				F4D774421ADFB7D1000F5945 /* FFGLConfigurationMajorModeViewController.xib */,
+				F4D7743D1ADFB7C4000F5945 /* FFGLConfigurationWindowController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -367,6 +372,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = F445AACC1ABEFC5D004ECE88;
 			productRefGroup = F445AAD71ABEFC5D004ECE88 /* Products */;
@@ -413,12 +419,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DBF12E1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.xib in Resources */,
-				F4CD152E1ADBC84D00F77C33 /* Localizable.strings in Resources */,
-				F4DB00741AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.xib in Resources */,
-				F4DB006C1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.xib in Resources */,
+				F4D7743C1ADFB7B8000F5945 /* Localizable.strings in Resources */,
+				F4D774471ADFB7D1000F5945 /* FFGLConfigurationMajorModeViewController.xib in Resources */,
+				F4D774481ADFB7D1000F5945 /* FFGLConfigurationSwarmModeViewController.xib in Resources */,
 				F445AAEF1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib in Resources */,
-				F445AAE91ABEFECF004ECE88 /* FFGLConfigurationWindowController.xib in Resources */,
+				F4D7743F1ADFB7C4000F5945 /* FFGLConfigurationWindowController.xib in Resources */,
+				F4D774461ADFB7D1000F5945 /* FFGLConfigurationGeneralViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,54 @@
 			targetProxy = F488E5D01ABF318D00541B6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4D7743A1ADFB7B8000F5945 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D7743B1ADFB7B8000F5945 /* en */,
+				F4D774491ADFB7F7000F5945 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F4D7743D1ADFB7C4000F5945 /* FFGLConfigurationWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D7743E1ADFB7C4000F5945 /* en */,
+				F4D7744D1ADFB7F7000F5945 /* fr */,
+			);
+			name = FFGLConfigurationWindowController.xib;
+			sourceTree = "<group>";
+		};
+		F4D774401ADFB7D1000F5945 /* FFGLConfigurationGeneralViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D774411ADFB7D1000F5945 /* en */,
+				F4D7744A1ADFB7F7000F5945 /* fr */,
+			);
+			name = FFGLConfigurationGeneralViewController.xib;
+			sourceTree = "<group>";
+		};
+		F4D774421ADFB7D1000F5945 /* FFGLConfigurationMajorModeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D774431ADFB7D1000F5945 /* en */,
+				F4D7744B1ADFB7F7000F5945 /* fr */,
+			);
+			name = FFGLConfigurationMajorModeViewController.xib;
+			sourceTree = "<group>";
+		};
+		F4D774441ADFB7D1000F5945 /* FFGLConfigurationSwarmModeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D774451ADFB7D1000F5945 /* en */,
+				F4D7744C1ADFB7F7000F5945 /* fr */,
+			);
+			name = FFGLConfigurationSwarmModeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F445AADF1ABEFC5D004ECE88 /* Debug */ = {

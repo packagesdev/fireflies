@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7525" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7525"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="FFGLConfigurationWindowController">
+            <connections>
+                <outlet property="_mainScreenCheckBox" destination="ite-3N-mfr" id="nbt-mf-qwp"/>
+                <outlet property="_segmentView" destination="b2b-Nf-njF" id="Mmy-y2-tyT"/>
+                <outlet property="_tabHeaderView" destination="zv3-mh-8q5" id="XVA-Sh-r09"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="OCb-Du-Xk6"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="602" height="418"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1577"/>
+            <view key="contentView" id="se5-gp-TjO" customClass="FFGLLightGrayBackgroundView">
+                <rect key="frame" x="0.0" y="0.0" width="602" height="418"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" id="IGV-AI-Zhe">
+                        <rect key="frame" x="14" y="13" width="129" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="À propos de…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8lg-33-emT">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showAboutBox:" target="-2" id="Wbm-rz-f4K"/>
+                        </connections>
+                    </button>
+                    <customView id="Y8y-XX-hJ6" customClass="FFGLSecondaryBox">
+                        <rect key="frame" x="-1" y="61" width="604" height="48"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <button id="ite-3N-mfr">
+                                <rect key="frame" x="109" y="14" width="199" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="Écran principal uniquement" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="nT1-8y-O1E">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField verticalHuggingPriority="750" id="EgE-zO-C6t">
+                                <rect key="frame" x="39" y="15" width="65" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Écrans :" id="ucF-eD-kD7">
+                                    <font key="font" metaFont="systemBold"/>
+                                    <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </customView>
+                    <customView id="b2b-Nf-njF">
+                        <rect key="frame" x="0.0" y="109" width="602" height="272"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    </customView>
+                    <button verticalHuggingPriority="750" tag="1" id="GPn-MH-Pc4">
+                        <rect key="frame" x="504" y="13" width="84" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MdP-ys-3aj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="closeDialog:" target="-2" id="Tyg-Et-kdj"/>
+                        </connections>
+                    </button>
+                    <customView id="zv3-mh-8q5" customClass="FFGLTabHeaderView">
+                        <rect key="frame" x="0.0" y="381" width="602" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <button id="r5r-p8-rOX" customClass="FFGLTabButton">
+                                <rect key="frame" x="74" y="7" width="130" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="radio" title="Général" bezelStyle="regularSquare" alignment="center" inset="2" id="dxb-D3-6OX">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showSegmentedView:" target="-2" id="uL9-hg-Ahd"/>
+                                </connections>
+                            </button>
+                            <button tag="1" id="mLn-vy-mZS" customClass="FFGLTabButton">
+                                <rect key="frame" x="237" y="7" width="130" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="radio" title="Mode par essaim" bezelStyle="regularSquare" alignment="center" inset="2" id="Bf3-D3-hG8">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showSegmentedView:" target="-2" id="uBR-oN-Pm3"/>
+                                </connections>
+                            </button>
+                            <button tag="2" id="tzr-I2-ce1" customClass="FFGLTabButton">
+                                <rect key="frame" x="400" y="7" width="130" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="radio" title="Mode Majeur" bezelStyle="regularSquare" alignment="center" inset="2" id="qhL-gq-Ofa">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showSegmentedView:" target="-2" id="NOo-ec-82H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </customView>
+                    <button verticalHuggingPriority="750" id="7l7-BG-cOz">
+                        <rect key="frame" x="417" y="13" width="87" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Annuler" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RLP-ez-tbd">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="closeDialog:" target="-2" id="Ggp-3j-fJr"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="422" y="529"/>
+        </window>
+    </objects>
+</document>

@@ -77,7 +77,7 @@
 		if (_pushed==YES)
 			tColor=[NSColor blackColor];
 		else
-			tColor=[NSColor colorWithDeviceWhite:0.35 alpha:1.0];
+			tColor=[NSColor colorWithDeviceWhite:0.39 alpha:1.0];
 	}
 	
 	[tAttributedString addAttribute:NSForegroundColorAttributeName
