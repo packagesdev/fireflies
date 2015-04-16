@@ -44,47 +44,47 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-mo-xeY">
-            <rect key="frame" x="0.0" y="0.0" width="602" height="272"/>
+            <rect key="frame" x="-1" y="0.0" width="525" height="272"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" id="ujZ-76-Yv7">
-                    <rect key="frame" x="315" y="112" width="178" height="17"/>
+                    <rect key="frame" x="324" y="112" width="92" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Accélération des appâts :" id="EV7-PU-EKM">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="餌の加速度：" id="EV7-PU-EKM">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="kVw-Xr-Xx9">
-                    <rect key="frame" x="58" y="112" width="148" height="17"/>
+                    <rect key="frame" x="97" y="112" width="81" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Vitesse des appâts :" id="co7-q9-KWI">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="餌の速度：" id="co7-q9-KWI">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="cT9-QT-1Or">
-                    <rect key="frame" x="315" y="142" width="178" height="17"/>
+                    <rect key="frame" x="296" y="142" width="120" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Accélération des lucioles :" id="5Sm-wk-EBX">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ホタルの加速度：" id="5Sm-wk-EBX">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="JBs-B2-FR0">
-                    <rect key="frame" x="320" y="232" width="173" height="17"/>
+                    <rect key="frame" x="296" y="232" width="120" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Nombre min. de lucioles :" id="UbY-p4-yem">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ホタルの最小数：" id="UbY-p4-yem">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="CQe-4C-p4Z">
-                    <rect key="frame" x="279" y="108" width="19" height="27"/>
+                    <rect key="frame" x="251" y="108" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" increment="5" minValue="10" maxValue="200" doubleValue="10" id="jie-F8-6n2"/>
                     <connections>
@@ -92,7 +92,7 @@
                     </connections>
                 </stepper>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="O7R-Th-s4q">
-                    <rect key="frame" x="566" y="168" width="19" height="27"/>
+                    <rect key="frame" x="489" y="168" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="10" maxValue="30" doubleValue="10" id="bz0-jG-APp"/>
                     <connections>
@@ -100,16 +100,16 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="Vlf-6m-ri8">
-                    <rect key="frame" x="375" y="22" width="118" height="17"/>
+                    <rect key="frame" x="361" y="22" width="55" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Vitesse du vent :" id="wn1-YL-jjl">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="風速：" id="wn1-YL-jjl">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="6tZ-Ac-L01">
-                    <rect key="frame" x="279" y="18" width="19" height="27"/>
+                    <rect key="frame" x="251" y="18" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="28j-ke-M1b"/>
                     <connections>
@@ -117,7 +117,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="d9g-m7-Pfe">
-                    <rect key="frame" x="499" y="230" width="65" height="22"/>
+                    <rect key="frame" x="422" y="230" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="E0i-fF-iKx">
                         <font key="font" metaFont="system"/>
@@ -126,7 +126,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="gil-s8-Yde">
-                    <rect key="frame" x="212" y="230" width="65" height="22"/>
+                    <rect key="frame" x="184" y="230" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="KXM-Ta-NKI">
                         <font key="font" metaFont="system"/>
@@ -135,7 +135,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="TFe-Fn-SMJ">
-                    <rect key="frame" x="499" y="80" width="65" height="22"/>
+                    <rect key="frame" x="422" y="80" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="pyr-wK-KXA">
                         <font key="font" metaFont="system"/>
@@ -144,7 +144,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="F2h-qD-i5K">
-                    <rect key="frame" x="499" y="140" width="65" height="22"/>
+                    <rect key="frame" x="422" y="140" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="dzP-kL-KoI">
                         <font key="font" metaFont="system"/>
@@ -153,16 +153,16 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="14b-U0-FWW">
-                    <rect key="frame" x="381" y="82" width="112" height="17"/>
+                    <rect key="frame" x="361" y="82" width="55" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Luminescence :" id="c4k-tO-J5q">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="光度：" id="c4k-tO-J5q">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="awN-du-B7P">
-                    <rect key="frame" x="212" y="200" width="65" height="22"/>
+                    <rect key="frame" x="184" y="200" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="TAn-hs-waQ">
                         <font key="font" metaFont="system"/>
@@ -171,7 +171,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="ICy-Hb-zcV">
-                    <rect key="frame" x="279" y="198" width="19" height="27"/>
+                    <rect key="frame" x="251" y="198" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="20" doubleValue="10" id="i3D-aU-fmx"/>
                     <connections>
@@ -179,7 +179,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="0nb-Dg-4hH">
-                    <rect key="frame" x="212" y="80" width="65" height="22"/>
+                    <rect key="frame" x="184" y="80" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="C17-r6-bQJ">
                         <font key="font" metaFont="system"/>
@@ -187,17 +187,8 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" id="D3h-sY-mH2">
-                    <rect key="frame" x="10" y="82" width="196" height="17"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Vitesse du cycle de couleurs :" id="R3u-qI-WOU">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="Jwo-Qg-9Nf">
-                    <rect key="frame" x="279" y="78" width="19" height="27"/>
+                    <rect key="frame" x="251" y="78" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="5" maxValue="50" doubleValue="5" id="wEN-QZ-Sj1"/>
                     <connections>
@@ -205,16 +196,16 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="evm-tE-lrA">
-                    <rect key="frame" x="41" y="202" width="165" height="17"/>
+                    <rect key="frame" x="83" y="202" width="95" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Nombre max. d'appâts :" id="izG-A2-A7U">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="餌の最大数：" id="izG-A2-A7U">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="eqa-MI-Nly">
-                    <rect key="frame" x="566" y="78" width="19" height="27"/>
+                    <rect key="frame" x="489" y="78" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" maxValue="30" id="BpE-Ie-OFX"/>
                     <connections>
@@ -222,7 +213,7 @@
                     </connections>
                 </stepper>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="pfR-US-ikK">
-                    <rect key="frame" x="566" y="108" width="19" height="27"/>
+                    <rect key="frame" x="489" y="108" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" increment="50" minValue="50" maxValue="1000" doubleValue="50" id="CY1-Dp-9zf"/>
                     <connections>
@@ -230,7 +221,7 @@
                     </connections>
                 </stepper>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="0t7-4U-Jvn">
-                    <rect key="frame" x="279" y="138" width="19" height="27"/>
+                    <rect key="frame" x="251" y="138" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" increment="5" minValue="10" maxValue="200" doubleValue="10" id="S2G-eG-c3C"/>
                     <connections>
@@ -238,7 +229,7 @@
                     </connections>
                 </stepper>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="6Ev-UZ-yzX">
-                    <rect key="frame" x="566" y="198" width="19" height="27"/>
+                    <rect key="frame" x="489" y="198" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" increment="5" minValue="40" maxValue="300" doubleValue="40" id="0Ey-Pe-iUA"/>
                     <connections>
@@ -246,7 +237,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="Qqb-ws-Rul">
-                    <rect key="frame" x="212" y="20" width="65" height="22"/>
+                    <rect key="frame" x="184" y="20" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="2wG-w5-e6W">
                         <font key="font" metaFont="system"/>
@@ -255,7 +246,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="L2f-F7-nI1">
-                    <rect key="frame" x="499" y="50" width="65" height="22"/>
+                    <rect key="frame" x="422" y="50" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="1te-AD-kVh">
                         <font key="font" metaFont="system"/>
@@ -264,7 +255,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="p9t-7s-2S9">
-                    <rect key="frame" x="279" y="228" width="19" height="27"/>
+                    <rect key="frame" x="251" y="228" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="10" doubleValue="1" id="OEZ-Of-2Q5"/>
                     <connections>
@@ -272,16 +263,16 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="pVS-0e-QJO">
-                    <rect key="frame" x="358" y="172" width="135" height="17"/>
+                    <rect key="frame" x="296" y="172" width="120" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Taille des lucioles :" id="pBC-1E-F4W">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ホタルのサイズ：" id="pBC-1E-F4W">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="nxr-G0-8PJ">
-                    <rect key="frame" x="212" y="140" width="65" height="22"/>
+                    <rect key="frame" x="184" y="140" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="PgR-cW-ujK">
                         <font key="font" metaFont="system"/>
@@ -290,7 +281,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="6yh-Yr-vkw">
-                    <rect key="frame" x="566" y="228" width="19" height="27"/>
+                    <rect key="frame" x="489" y="228" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" increment="5" minValue="20" maxValue="200" doubleValue="20" id="IPS-dj-zeX"/>
                     <connections>
@@ -298,7 +289,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="bUG-rj-ogc">
-                    <rect key="frame" x="499" y="20" width="65" height="22"/>
+                    <rect key="frame" x="422" y="20" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="4Bl-dO-9LL">
                         <font key="font" metaFont="system"/>
@@ -307,15 +298,24 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="h8z-fA-lQV">
-                    <rect key="frame" x="566" y="48" width="19" height="27"/>
+                    <rect key="frame" x="489" y="48" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" increment="0.5" minValue="1" maxValue="50" doubleValue="1" id="XU5-JI-VX3"/>
                     <connections>
                         <action selector="takeDoubleValueFrom:" target="L2f-F7-nI1" id="bLX-PC-k26"/>
                     </connections>
                 </stepper>
+                <textField verticalHuggingPriority="750" id="D3h-sY-mH2">
+                    <rect key="frame" x="48" y="82" width="130" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="カラー切替の速度：" id="R3u-qI-WOU">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
                 <textField verticalHuggingPriority="750" id="Czi-yv-tmZ">
-                    <rect key="frame" x="499" y="200" width="65" height="22"/>
+                    <rect key="frame" x="422" y="200" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="CWK-qg-kAf">
                         <font key="font" metaFont="system"/>
@@ -324,34 +324,34 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="ra6-mx-VfX">
-                    <rect key="frame" x="53" y="22" width="153" height="17"/>
+                    <rect key="frame" x="71" y="22" width="107" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Opacité de la queue :" id="4Rf-nU-92h">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="尾の不透明度：" id="4Rf-nU-92h">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="kDn-oD-LLU">
-                    <rect key="frame" x="346" y="52" width="147" height="17"/>
+                    <rect key="frame" x="349" y="52" width="67" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Largeur de la queue :" id="xPb-qW-yBT">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="尾の幅：" id="xPb-qW-yBT">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="Wlm-eG-t9L">
-                    <rect key="frame" x="58" y="142" width="148" height="17"/>
+                    <rect key="frame" x="71" y="142" width="107" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Vitesse des lucioles :" id="KjK-tq-wtb">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ホタルの速度：" id="KjK-tq-wtb">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="eo1-ZK-LcB">
-                    <rect key="frame" x="212" y="50" width="65" height="22"/>
+                    <rect key="frame" x="184" y="50" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="JLe-gD-4JH">
                         <font key="font" metaFont="system"/>
@@ -360,16 +360,16 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="z5G-IW-wiY">
-                    <rect key="frame" x="41" y="232" width="165" height="17"/>
+                    <rect key="frame" x="83" y="232" width="95" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Nombre min. d'appâts :" id="kuI-kn-cXv">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="餌の最小数：" id="kuI-kn-cXv">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="DLS-IK-0TN">
-                    <rect key="frame" x="499" y="110" width="65" height="22"/>
+                    <rect key="frame" x="422" y="110" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="s2F-rz-qLB">
                         <font key="font" metaFont="system"/>
@@ -378,16 +378,16 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="mqF-7t-LI1">
-                    <rect key="frame" x="46" y="52" width="160" height="17"/>
+                    <rect key="frame" x="95" y="52" width="83" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Longueur de la queue :" id="mz2-Op-wXG">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="尾の長さ：" id="mz2-Op-wXG">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="uk5-Ay-p2L">
-                    <rect key="frame" x="566" y="18" width="19" height="27"/>
+                    <rect key="frame" x="489" y="18" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="9RP-60-m29"/>
                     <connections>
@@ -395,7 +395,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="Krr-Aw-nrD">
-                    <rect key="frame" x="499" y="170" width="65" height="22"/>
+                    <rect key="frame" x="422" y="170" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="7Sv-FV-IK2">
                         <font key="font" metaFont="system"/>
@@ -404,7 +404,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="0EI-Rn-4uh">
-                    <rect key="frame" x="566" y="138" width="19" height="27"/>
+                    <rect key="frame" x="489" y="138" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" increment="50" minValue="50" maxValue="1000" doubleValue="50" id="tvW-nC-tw7"/>
                     <connections>
@@ -412,15 +412,15 @@
                     </connections>
                 </stepper>
                 <button id="7Gg-Fz-y3M">
-                    <rect key="frame" x="153" y="171" width="153" height="18"/>
+                    <rect key="frame" x="182" y="171" width="82" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="check" title="Dessiner les appâts" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="1P4-TC-aMP">
+                    <buttonCell key="cell" type="check" title="餌を表示" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="1P4-TC-aMP">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                        <font key="font" metaFont="system"/>
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                     </buttonCell>
                 </button>
                 <textField verticalHuggingPriority="750" id="3W9-qa-JVr">
-                    <rect key="frame" x="212" y="110" width="65" height="22"/>
+                    <rect key="frame" x="184" y="110" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="MhD-Uz-Y5l">
                         <font key="font" metaFont="system"/>
@@ -429,7 +429,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="APa-tX-V8L">
-                    <rect key="frame" x="279" y="48" width="19" height="27"/>
+                    <rect key="frame" x="251" y="48" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" increment="0.5" minValue="1" maxValue="50" doubleValue="1" id="biH-tA-cOt"/>
                     <connections>
@@ -437,16 +437,16 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="mbJ-ei-do4">
-                    <rect key="frame" x="320" y="202" width="173" height="17"/>
+                    <rect key="frame" x="296" y="202" width="120" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Nombre max. de lucioles :" id="I23-uH-Ylw">
-                        <font key="font" metaFont="system"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ホタルの最大数：" id="I23-uH-Ylw">
+                        <font key="font" size="13" name="HiraKakuProN-W3"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
             </subviews>
-            <point key="canvasLocation" x="742" y="557"/>
+            <point key="canvasLocation" x="308.5" y="496"/>
         </customView>
     </objects>
 </document>

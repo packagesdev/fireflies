@@ -24,34 +24,23 @@
                 <rect key="frame" x="0.0" y="5" width="525" height="418"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" id="IGV-AI-Zhe">
-                        <rect key="frame" x="15" y="13" width="91" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="About…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8lg-33-emT">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="showAboutBox:" target="-2" id="Wbm-rz-f4K"/>
-                        </connections>
-                    </button>
                     <customView id="Y8y-XX-hJ6" customClass="FFGLSecondaryBox">
                         <rect key="frame" x="-1" y="61" width="527" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <button id="ite-3N-mfr">
-                                <rect key="frame" x="109" y="14" width="141" height="18"/>
+                                <rect key="frame" x="109" y="14" width="175" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="check" title="Main display only" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="nT1-8y-O1E">
+                                <buttonCell key="cell" type="check" title="メインディスプレイのみ" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="nT1-8y-O1E">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="HiraKakuProN-W3"/>
                                 </buttonCell>
                             </button>
                             <textField verticalHuggingPriority="750" id="EgE-zO-C6t">
-                                <rect key="frame" x="33" y="15" width="71" height="17"/>
+                                <rect key="frame" x="12" y="15" width="92" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Displays:" id="ucF-eD-kD7">
-                                    <font key="font" metaFont="systemBold"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ディスプレイ:" id="ucF-eD-kD7">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
                                     <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -83,9 +72,9 @@ DQ
                             <button id="r5r-p8-rOX" customClass="FFGLTabButton">
                                 <rect key="frame" x="35" y="7" width="130" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="radio" title="General" bezelStyle="regularSquare" alignment="center" inset="2" id="dxb-D3-6OX">
+                                <buttonCell key="cell" type="radio" title="一般" bezelStyle="regularSquare" alignment="center" inset="2" id="dxb-D3-6OX">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="HiraKakuProN-W3"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="showSegmentedView:" target="-2" id="uL9-hg-Ahd"/>
@@ -94,9 +83,9 @@ DQ
                             <button tag="1" id="mLn-vy-mZS" customClass="FFGLTabButton">
                                 <rect key="frame" x="198" y="7" width="130" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="radio" title="Per-Swarm Mode" bezelStyle="regularSquare" alignment="center" inset="2" id="Bf3-D3-hG8">
+                                <buttonCell key="cell" type="radio" title="各群れモード" bezelStyle="regularSquare" alignment="center" inset="2" id="Bf3-D3-hG8">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="HiraKakuProN-W3"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="showSegmentedView:" target="-2" id="uBR-oN-Pm3"/>
@@ -105,9 +94,9 @@ DQ
                             <button tag="2" id="tzr-I2-ce1" customClass="FFGLTabButton">
                                 <rect key="frame" x="361" y="7" width="130" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="radio" title="Major Mode" bezelStyle="regularSquare" alignment="center" inset="2" id="qhL-gq-Ofa">
+                                <buttonCell key="cell" type="radio" title="メージャーモード" bezelStyle="regularSquare" alignment="center" inset="2" id="qhL-gq-Ofa">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" size="13" name="HiraKakuProN-W3"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="showSegmentedView:" target="-2" id="NOo-ec-82H"/>
@@ -116,17 +105,28 @@ DQ
                         </subviews>
                     </customView>
                     <button verticalHuggingPriority="750" id="7l7-BG-cOz">
-                        <rect key="frame" x="345" y="13" width="82" height="32"/>
+                        <rect key="frame" x="322" y="13" width="105" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RLP-ez-tbd">
+                        <buttonCell key="cell" type="push" title="キャンセル" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RLP-ez-tbd">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" size="13" name="HiraKakuProN-W3"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
 Gw
 </string>
                         </buttonCell>
                         <connections>
                             <action selector="closeDialog:" target="-2" id="Ggp-3j-fJr"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" id="IGV-AI-Zhe">
+                        <rect key="frame" x="14" y="14" width="104" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="について..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8lg-33-emT">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="13" name="HiraKakuProN-W3"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showAboutBox:" target="-2" id="Wbm-rz-f4K"/>
                         </connections>
                     </button>
                 </subviews>

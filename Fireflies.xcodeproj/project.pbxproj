@@ -92,6 +92,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4078D481AE0134600181F25 /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4078D491AE0134600181F25 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FFGLConfigurationGeneralViewController.xib; sourceTree = "<group>"; };
+		F4078D4A1AE0134600181F25 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
+		F4078D4B1AE0134600181F25 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
+		F4078D4C1AE0134600181F25 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FFGLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F445AAD61ABEFC5D004ECE88 /* Fireflies.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fireflies.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F445AADA1ABEFC5D004ECE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F445AADB1ABEFC5D004ECE88 /* FFGLFirefliesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFGLFirefliesView.h; sourceTree = "<group>"; };
@@ -373,6 +378,7 @@
 			knownRegions = (
 				en,
 				fr,
+				ja,
 			);
 			mainGroup = F445AACC1ABEFC5D004ECE88;
 			productRefGroup = F445AAD71ABEFC5D004ECE88 /* Products */;
@@ -474,6 +480,7 @@
 			children = (
 				F4D7743B1ADFB7B8000F5945 /* en */,
 				F4D774491ADFB7F7000F5945 /* fr */,
+				F4078D481AE0134600181F25 /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -483,6 +490,7 @@
 			children = (
 				F4D7743E1ADFB7C4000F5945 /* en */,
 				F4D7744D1ADFB7F7000F5945 /* fr */,
+				F4078D4C1AE0134600181F25 /* ja */,
 			);
 			name = FFGLConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -492,6 +500,7 @@
 			children = (
 				F4D774411ADFB7D1000F5945 /* en */,
 				F4D7744A1ADFB7F7000F5945 /* fr */,
+				F4078D491AE0134600181F25 /* ja */,
 			);
 			name = FFGLConfigurationGeneralViewController.xib;
 			sourceTree = "<group>";
@@ -501,6 +510,7 @@
 			children = (
 				F4D774431ADFB7D1000F5945 /* en */,
 				F4D7744B1ADFB7F7000F5945 /* fr */,
+				F4078D4B1AE0134600181F25 /* ja */,
 			);
 			name = FFGLConfigurationMajorModeViewController.xib;
 			sourceTree = "<group>";
@@ -510,6 +520,7 @@
 			children = (
 				F4D774451ADFB7D1000F5945 /* en */,
 				F4D7744C1ADFB7F7000F5945 /* fr */,
+				F4078D4A1AE0134600181F25 /* ja */,
 			);
 			name = FFGLConfigurationSwarmModeViewController.xib;
 			sourceTree = "<group>";

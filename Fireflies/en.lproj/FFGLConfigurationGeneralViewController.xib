@@ -66,7 +66,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="cT9-QT-1Or">
-                    <rect key="frame" x="289" y="142" width="127" height="17"/>
+                    <rect key="frame" x="285" y="142" width="131" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Firefly acceleration:" id="5Sm-wk-EBX">
                         <font key="font" metaFont="system"/>
@@ -153,7 +153,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="14b-U0-FWW">
-                    <rect key="frame" x="335" y="82" width="81" height="17"/>
+                    <rect key="frame" x="328" y="82" width="88" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Glow factor:" id="c4k-tO-J5q">
                         <font key="font" metaFont="system"/>
@@ -263,7 +263,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="pVS-0e-QJO">
-                    <rect key="frame" x="340" y="172" width="76" height="17"/>
+                    <rect key="frame" x="335" y="172" width="81" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Firefly size:" id="pBC-1E-F4W">
                         <font key="font" metaFont="system"/>
@@ -306,7 +306,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="D3h-sY-mH2">
-                    <rect key="frame" x="35" y="82" width="121" height="17"/>
+                    <rect key="frame" x="28" y="82" width="128" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Color cycle speed:" id="R3u-qI-WOU">
                         <font key="font" metaFont="system"/>
@@ -412,7 +412,7 @@
                     </connections>
                 </stepper>
                 <button id="7Gg-Fz-y3M">
-                    <rect key="frame" x="160" y="171" width="89" height="18"/>
+                    <rect key="frame" x="160" y="171" width="98" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" title="Draw baits" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="1P4-TC-aMP">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
