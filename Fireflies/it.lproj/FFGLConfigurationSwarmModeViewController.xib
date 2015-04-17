@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7525" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7525"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="FFGLConfigurationSwarmModeViewController">
+            <connections>
+                <outlet property="_breatherStepper" destination="3c9-zA-p6S" id="UAy-r1-jFr"/>
+                <outlet property="_breatherTextField" destination="Zoz-MO-vmo" id="kA9-iP-z5G"/>
+                <outlet property="_fadedStepper" destination="D9o-SK-r4I" id="Sn9-2X-tbq"/>
+                <outlet property="_fadedTextField" destination="Ao9-Yz-Fs2" id="3yb-gX-EFa"/>
+                <outlet property="_glowingStepper" destination="xxU-ho-L0U" id="QYg-0p-pxm"/>
+                <outlet property="_glowingTextField" destination="i8y-hY-SCs" id="VaF-Bc-eLg"/>
+                <outlet property="_hyperStepper" destination="4st-iL-5KM" id="CXI-Co-L5l"/>
+                <outlet property="_hyperTextField" destination="63X-i2-io4" id="V2q-GI-FYr"/>
+                <outlet property="_loopStepper" destination="pzE-mp-Tl2" id="qpJ-MG-EKe"/>
+                <outlet property="_loopTextField" destination="PPG-Zo-boh" id="RNh-a3-dRT"/>
+                <outlet property="_normalModeStepper" destination="aCP-wG-Mag" id="PPY-IZ-P3E"/>
+                <outlet property="_normalModeTextField" destination="Mn7-FS-aGC" id="Ans-6h-mZ3"/>
+                <outlet property="_psychadelicStepper" destination="xJE-V6-vaf" id="J4W-0a-oXy"/>
+                <outlet property="_psychadelicTextField" destination="Vgv-kP-TeX" id="T68-bF-qRK"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="560" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="xJE-V6-vaf">
+                    <rect key="frame" x="234" y="138" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="dZd-xi-1HQ"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="Vgv-kP-TeX" id="6PA-YA-ebW"/>
+                    </connections>
+                </stepper>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="pzE-mp-Tl2">
+                    <rect key="frame" x="234" y="168" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="9U2-4e-nMV"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="PPG-Zo-boh" id="RUX-Oj-dTe"/>
+                    </connections>
+                </stepper>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="D9o-SK-r4I">
+                    <rect key="frame" x="234" y="48" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="TME-Bw-VXk"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="Ao9-Yz-Fs2" id="dj4-af-bbP"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="8oT-Wo-ezw">
+                    <rect key="frame" x="23" y="142" width="138" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Code psichedeliche:" id="Zvm-F3-gc5">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="63X-i2-io4">
+                    <rect key="frame" x="167" y="80" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="Dc2-fV-PDk">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="3c9-zA-p6S">
+                    <rect key="frame" x="234" y="198" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="6Xo-0N-wky"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="Zoz-MO-vmo" id="rZM-jQ-lGb"/>
+                    </connections>
+                </stepper>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="xxU-ho-L0U">
+                    <rect key="frame" x="234" y="108" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="O3a-3o-w5I"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="i8y-hY-SCs" id="xpc-XN-7lY"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="GVH-ir-b5J">
+                    <rect key="frame" x="24" y="172" width="137" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="L'esca va in circolo:" id="dAo-u9-AO0">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Khe-kY-b5m">
+                    <rect key="frame" x="55" y="232" width="106" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Modo normale:" id="LdL-9f-qAN">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="i8y-hY-SCs">
+                    <rect key="frame" x="167" y="110" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="EM9-gz-0Sf">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="PPG-Zo-boh">
+                    <rect key="frame" x="167" y="170" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="dkf-aX-VU7">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="4st-iL-5KM">
+                    <rect key="frame" x="234" y="78" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="8fm-Pv-1Wh"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="63X-i2-io4" id="Rjo-Tw-uu5"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="wDz-Ak-o7W">
+                    <rect key="frame" x="48" y="112" width="113" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Code luminose:" id="EYu-Z4-kKY">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Vgv-kP-TeX">
+                    <rect key="frame" x="167" y="140" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="dKX-HV-Ziw">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Ao9-Yz-Fs2">
+                    <rect key="frame" x="167" y="50" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="9C8-1J-Fdm">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="yF6-kj-gA3">
+                    <rect key="frame" x="24" y="202" width="137" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="L'esca prende fiato:" id="mqA-6J-OGh">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="aCP-wG-Mag">
+                    <rect key="frame" x="234" y="228" width="19" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="PW4-Rj-aXx"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="Mn7-FS-aGC" id="NGq-RF-q3g"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="Szd-h4-uKC">
+                    <rect key="frame" x="24" y="82" width="137" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Sciame ultraveloce:" id="MuD-Ti-VKt">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Zoz-MO-vmo">
+                    <rect key="frame" x="167" y="200" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="p6l-yf-UBy">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Mn7-FS-aGC">
+                    <rect key="frame" x="167" y="230" width="65" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="ajL-9e-hwB">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="Zn1-VK-NaX">
+                    <rect key="frame" x="55" y="52" width="106" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Colori sfumati:" id="FJl-n8-0mQ">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <point key="canvasLocation" x="505" y="567"/>
+        </customView>
+    </objects>
+</document>

@@ -40,9 +40,9 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="OyF-d4-5v5">
-                    <rect key="frame" x="47" y="232" width="114" height="17"/>
+                    <rect key="frame" x="35" y="232" width="126" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="All-Swarm mode:" id="ZuJ-B8-G8L">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title=" Modo tutti-sciami:" id="ZuJ-B8-G8L">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -56,15 +56,6 @@
                         <action selector="takeDoubleValueFrom:" target="t59-lf-YUQ" id="ddo-ny-q11"/>
                     </connections>
                 </stepper>
-                <textField verticalHuggingPriority="750" id="8HK-Xy-PKP">
-                    <rect key="frame" x="72" y="112" width="89" height="17"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Matrix mode:" id="RTg-Da-YYJ">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="PoH-Ei-fol">
                     <rect key="frame" x="234" y="138" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -96,18 +87,18 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="tML-VW-2ch">
-                    <rect key="frame" x="35" y="172" width="126" height="17"/>
+                    <rect key="frame" x="23" y="172" width="138" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Create some flies:" id="GaP-bz-Km7">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Crea alcune lucciole:" id="GaP-bz-Km7">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="gZh-cZ-pBr">
-                    <rect key="frame" x="64" y="202" width="97" height="17"/>
+                    <rect key="frame" x="23" y="202" width="138" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Kill some flies:" id="iOM-df-NAk">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Togli alcune lucciole:" id="iOM-df-NAk">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -130,10 +121,18 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" id="je2-gm-h73">
-                    <rect key="frame" x="55" y="142" width="106" height="17"/>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="2qP-qE-MFK">
+                    <rect key="frame" x="234" y="228" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Wind picks up:" id="Ar2-Rs-17V">
+                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="8Ly-ap-i68"/>
+                    <connections>
+                        <action selector="takeDoubleValueFrom:" target="ZcC-7P-AAQ" id="c6D-6o-yYX"/>
+                    </connections>
+                </stepper>
+                <textField verticalHuggingPriority="750" id="je2-gm-h73">
+                    <rect key="frame" x="58" y="142" width="103" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Arriva il vento:" id="Ar2-Rs-17V">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -151,7 +150,7 @@
                 <textField verticalHuggingPriority="750" id="mxX-a9-XXA">
                     <rect key="frame" x="32" y="82" width="129" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="A swarm splits in 2:" id="IVQ-77-vu9">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Dividi sciame in 2:" id="IVQ-77-vu9">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -195,20 +194,21 @@
                 <textField verticalHuggingPriority="750" id="Hav-6m-f4c">
                     <rect key="frame" x="30" y="52" width="131" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Two swarms merge:" id="9u4-eS-7Ye">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Unione di 2 sciami:" id="9u4-eS-7Ye">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="2qP-qE-MFK">
-                    <rect key="frame" x="234" y="228" width="19" height="27"/>
+                <textField verticalHuggingPriority="750" id="8HK-Xy-PKP">
+                    <rect key="frame" x="58" y="112" width="103" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="8Ly-ap-i68"/>
-                    <connections>
-                        <action selector="takeDoubleValueFrom:" target="ZcC-7P-AAQ" id="c6D-6o-yYX"/>
-                    </connections>
-                </stepper>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Modo &quot;Matrix&quot;:" id="RTg-Da-YYJ">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
             </subviews>
             <point key="canvasLocation" x="569" y="362"/>
         </customView>
