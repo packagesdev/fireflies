@@ -27,11 +27,11 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView translatesAutoresizingMaskIntoConstraints="NO" id="Hz6-mo-xeY">
-            <rect key="frame" x="0.0" y="0.0" width="560" height="272"/>
+            <rect key="frame" x="0.0" y="0.0" width="629" height="272"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="xJE-V6-vaf">
-                    <rect key="frame" x="234" y="138" width="19" height="27"/>
+                    <rect key="frame" x="293" y="138" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="dZd-xi-1HQ"/>
                     <connections>
@@ -39,7 +39,7 @@
                     </connections>
                 </stepper>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="pzE-mp-Tl2">
-                    <rect key="frame" x="234" y="168" width="19" height="27"/>
+                    <rect key="frame" x="293" y="168" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="9U2-4e-nMV"/>
                     <connections>
@@ -47,7 +47,7 @@
                     </connections>
                 </stepper>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="D9o-SK-r4I">
-                    <rect key="frame" x="234" y="48" width="19" height="27"/>
+                    <rect key="frame" x="293" y="48" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="TME-Bw-VXk"/>
                     <connections>
@@ -55,16 +55,16 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="8oT-Wo-ezw">
-                    <rect key="frame" x="23" y="142" width="138" height="17"/>
+                    <rect key="frame" x="44" y="142" width="176" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Code psichedeliche:" id="Zvm-F3-gc5">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Psychedelische Schweife:" id="Zvm-F3-gc5">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="63X-i2-io4">
-                    <rect key="frame" x="167" y="80" width="65" height="22"/>
+                    <rect key="frame" x="226" y="80" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="Dc2-fV-PDk">
                         <font key="font" metaFont="system"/>
@@ -73,7 +73,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="3c9-zA-p6S">
-                    <rect key="frame" x="234" y="198" width="19" height="27"/>
+                    <rect key="frame" x="293" y="198" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="6Xo-0N-wky"/>
                     <connections>
@@ -81,7 +81,7 @@
                     </connections>
                 </stepper>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="xxU-ho-L0U">
-                    <rect key="frame" x="234" y="108" width="19" height="27"/>
+                    <rect key="frame" x="293" y="108" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="O3a-3o-w5I"/>
                     <connections>
@@ -89,25 +89,25 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="GVH-ir-b5J">
-                    <rect key="frame" x="24" y="172" width="137" height="17"/>
+                    <rect key="frame" x="49" y="172" width="171" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="L'esca va in circolo:" id="dAo-u9-AO0">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Köder dreht eine Schleife:" id="dAo-u9-AO0">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="Khe-kY-b5m">
-                    <rect key="frame" x="55" y="232" width="106" height="17"/>
+                    <rect key="frame" x="99" y="232" width="121" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Modo normale:" id="LdL-9f-qAN">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Normaler Modus:" id="LdL-9f-qAN">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="i8y-hY-SCs">
-                    <rect key="frame" x="167" y="110" width="65" height="22"/>
+                    <rect key="frame" x="226" y="110" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="EM9-gz-0Sf">
                         <font key="font" metaFont="system"/>
@@ -116,7 +116,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="PPG-Zo-boh">
-                    <rect key="frame" x="167" y="170" width="65" height="22"/>
+                    <rect key="frame" x="226" y="170" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="dkf-aX-VU7">
                         <font key="font" metaFont="system"/>
@@ -125,7 +125,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="4st-iL-5KM">
-                    <rect key="frame" x="234" y="78" width="19" height="27"/>
+                    <rect key="frame" x="293" y="78" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="8fm-Pv-1Wh"/>
                     <connections>
@@ -133,16 +133,16 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="wDz-Ak-o7W">
-                    <rect key="frame" x="48" y="112" width="113" height="17"/>
+                    <rect key="frame" x="80" y="112" width="140" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Code luminose:" id="EYu-Z4-kKY">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Glühende Schweife:" id="EYu-Z4-kKY">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="Vgv-kP-TeX">
-                    <rect key="frame" x="167" y="140" width="65" height="22"/>
+                    <rect key="frame" x="226" y="140" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="dKX-HV-Ziw">
                         <font key="font" metaFont="system"/>
@@ -151,7 +151,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="Ao9-Yz-Fs2">
-                    <rect key="frame" x="167" y="50" width="65" height="22"/>
+                    <rect key="frame" x="226" y="50" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="9C8-1J-Fdm">
                         <font key="font" metaFont="system"/>
@@ -160,16 +160,16 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="yF6-kj-gA3">
-                    <rect key="frame" x="24" y="202" width="137" height="17"/>
+                    <rect key="frame" x="56" y="202" width="164" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="L'esca prende fiato:" id="mqA-6J-OGh">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Atempause des Köders:" id="mqA-6J-OGh">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="aCP-wG-Mag">
-                    <rect key="frame" x="234" y="228" width="19" height="27"/>
+                    <rect key="frame" x="293" y="228" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="PW4-Rj-aXx"/>
                     <connections>
@@ -177,16 +177,16 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="Szd-h4-uKC">
-                    <rect key="frame" x="24" y="82" width="137" height="17"/>
+                    <rect key="frame" x="23" y="82" width="197" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Sciame ultraveloce:" id="MuD-Ti-VKt">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Schwärme geraten in Wallung:" id="MuD-Ti-VKt">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="Zoz-MO-vmo">
-                    <rect key="frame" x="167" y="200" width="65" height="22"/>
+                    <rect key="frame" x="226" y="200" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="p6l-yf-UBy">
                         <font key="font" metaFont="system"/>
@@ -195,7 +195,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="Mn7-FS-aGC">
-                    <rect key="frame" x="167" y="230" width="65" height="22"/>
+                    <rect key="frame" x="226" y="230" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="ajL-9e-hwB">
                         <font key="font" metaFont="system"/>
@@ -204,16 +204,16 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="Zn1-VK-NaX">
-                    <rect key="frame" x="55" y="52" width="106" height="17"/>
+                    <rect key="frame" x="68" y="52" width="152" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Colori sfumati:" id="FJl-n8-0mQ">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Abgeblendete Farben:" id="FJl-n8-0mQ">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
             </subviews>
-            <point key="canvasLocation" x="666" y="394"/>
+            <point key="canvasLocation" x="387.5" y="534"/>
         </customView>
     </objects>
 </document>

@@ -132,6 +132,11 @@
 		F49AA7A21AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
 		F49AA7A31AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FFGLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F49AA7A41AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F49AA7A91AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F49AA7AA1AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FFGLConfigurationGeneralViewController.xib; sourceTree = "<group>"; };
+		F49AA7AB1AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
+		F49AA7AC1AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
+		F49AA7AD1AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FFGLConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4A6363B1ADC35DB0097AA55 /* FFGLTabHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLTabHeaderView.h; sourceTree = "<group>"; };
 		F4A6363C1ADC35DB0097AA55 /* FFGLTabHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLTabHeaderView.m; sourceTree = "<group>"; };
 		F4A636411ADC35F10097AA55 /* FFGLTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLTabButton.h; sourceTree = "<group>"; };
@@ -385,6 +390,7 @@
 				fr,
 				ja,
 				it,
+				de,
 			);
 			mainGroup = F445AACC1ABEFC5D004ECE88;
 			productRefGroup = F445AAD71ABEFC5D004ECE88 /* Products */;
@@ -488,6 +494,7 @@
 				F4D774491ADFB7F7000F5945 /* fr */,
 				F4078D481AE0134600181F25 /* ja */,
 				F49AA7A41AE103570071FD80 /* it */,
+				F49AA7A91AE10E6B0071FD80 /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -499,6 +506,7 @@
 				F4D7744D1ADFB7F7000F5945 /* fr */,
 				F4078D4C1AE0134600181F25 /* ja */,
 				F49AA7A31AE103570071FD80 /* it */,
+				F49AA7AD1AE10E6B0071FD80 /* de */,
 			);
 			name = FFGLConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -510,6 +518,7 @@
 				F4D7744A1ADFB7F7000F5945 /* fr */,
 				F4078D491AE0134600181F25 /* ja */,
 				F49AA7A01AE103570071FD80 /* it */,
+				F49AA7AA1AE10E6B0071FD80 /* de */,
 			);
 			name = FFGLConfigurationGeneralViewController.xib;
 			sourceTree = "<group>";
@@ -521,6 +530,7 @@
 				F4D7744B1ADFB7F7000F5945 /* fr */,
 				F4078D4B1AE0134600181F25 /* ja */,
 				F49AA7A21AE103570071FD80 /* it */,
+				F49AA7AC1AE10E6B0071FD80 /* de */,
 			);
 			name = FFGLConfigurationMajorModeViewController.xib;
 			sourceTree = "<group>";
@@ -532,6 +542,7 @@
 				F4D7744C1ADFB7F7000F5945 /* fr */,
 				F4078D4A1AE0134600181F25 /* ja */,
 				F49AA7A11AE103570071FD80 /* it */,
+				F49AA7AB1AE10E6B0071FD80 /* de */,
 			);
 			name = FFGLConfigurationSwarmModeViewController.xib;
 			sourceTree = "<group>";
