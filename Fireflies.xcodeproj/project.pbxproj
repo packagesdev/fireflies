@@ -131,8 +131,8 @@
 		F49AA7A11AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
 		F49AA7A21AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
 		F49AA7A31AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FFGLConfigurationWindowController.xib; sourceTree = "<group>"; };
-		F49AA7A41AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F49AA7A91AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F49AA7A41AE103570071FD80 /* it */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F49AA7A91AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F49AA7AA1AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FFGLConfigurationGeneralViewController.xib; sourceTree = "<group>"; };
 		F49AA7AB1AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
 		F49AA7AC1AE10E6B0071FD80 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };

@@ -31,7 +31,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField verticalHuggingPriority="750" id="t59-lf-YUQ">
-                    <rect key="frame" x="167" y="110" width="65" height="22"/>
+                    <rect key="frame" x="162" y="110" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="8aT-H1-njV">
                         <font key="font" metaFont="system"/>
@@ -40,7 +40,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="OyF-d4-5v5">
-                    <rect key="frame" x="47" y="232" width="114" height="17"/>
+                    <rect key="frame" x="42" y="232" width="114" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="All-Swarm mode:" id="ZuJ-B8-G8L">
                         <font key="font" metaFont="system"/>
@@ -49,7 +49,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="MOF-nb-2oE">
-                    <rect key="frame" x="234" y="108" width="19" height="27"/>
+                    <rect key="frame" x="229" y="108" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="duG-zs-uVs"/>
                     <connections>
@@ -57,7 +57,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="8HK-Xy-PKP">
-                    <rect key="frame" x="72" y="112" width="89" height="17"/>
+                    <rect key="frame" x="67" y="112" width="89" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Matrix mode:" id="RTg-Da-YYJ">
                         <font key="font" metaFont="system"/>
@@ -66,12 +66,12 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="PoH-Ei-fol">
-                    <rect key="frame" x="234" y="138" width="19" height="27"/>
+                    <rect key="frame" x="229" y="138" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="epm-9r-i9I"/>
                 </stepper>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="pA7-gS-md9">
-                    <rect key="frame" x="234" y="78" width="19" height="27"/>
+                    <rect key="frame" x="229" y="78" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="vj1-7C-EPz"/>
                     <connections>
@@ -79,7 +79,7 @@
                     </connections>
                 </stepper>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="Iql-do-uqr">
-                    <rect key="frame" x="234" y="198" width="19" height="27"/>
+                    <rect key="frame" x="229" y="198" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="bas-Jd-Kt2"/>
                     <connections>
@@ -87,7 +87,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="AYW-5J-MEY">
-                    <rect key="frame" x="167" y="170" width="65" height="22"/>
+                    <rect key="frame" x="162" y="170" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="Osr-4k-dL3">
                         <font key="font" metaFont="system"/>
@@ -96,7 +96,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="tML-VW-2ch">
-                    <rect key="frame" x="35" y="172" width="126" height="17"/>
+                    <rect key="frame" x="30" y="172" width="126" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Create some flies:" id="GaP-bz-Km7">
                         <font key="font" metaFont="system"/>
@@ -105,7 +105,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="gZh-cZ-pBr">
-                    <rect key="frame" x="64" y="202" width="97" height="17"/>
+                    <rect key="frame" x="59" y="202" width="97" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Kill some flies:" id="iOM-df-NAk">
                         <font key="font" metaFont="system"/>
@@ -114,7 +114,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="sAv-Oi-e5S">
-                    <rect key="frame" x="234" y="168" width="19" height="27"/>
+                    <rect key="frame" x="229" y="168" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="svl-Zg-woj"/>
                     <connections>
@@ -122,7 +122,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="FAs-pq-6uR">
-                    <rect key="frame" x="167" y="140" width="65" height="22"/>
+                    <rect key="frame" x="162" y="140" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="9GG-n2-PND">
                         <font key="font" metaFont="system"/>
@@ -131,7 +131,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="je2-gm-h73">
-                    <rect key="frame" x="55" y="142" width="106" height="17"/>
+                    <rect key="frame" x="50" y="142" width="106" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Wind picks up:" id="Ar2-Rs-17V">
                         <font key="font" metaFont="system"/>
@@ -140,7 +140,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="yHE-fs-963">
-                    <rect key="frame" x="167" y="50" width="65" height="22"/>
+                    <rect key="frame" x="162" y="50" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="T2K-tF-XCR">
                         <font key="font" metaFont="system"/>
@@ -149,7 +149,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="mxX-a9-XXA">
-                    <rect key="frame" x="32" y="82" width="129" height="17"/>
+                    <rect key="frame" x="27" y="82" width="129" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="A swarm splits in 2:" id="IVQ-77-vu9">
                         <font key="font" metaFont="system"/>
@@ -158,7 +158,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="Apv-RQ-rde">
-                    <rect key="frame" x="234" y="48" width="19" height="27"/>
+                    <rect key="frame" x="229" y="48" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="WJV-Jh-4ef"/>
                     <connections>
@@ -166,7 +166,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="Eh0-4G-UKc">
-                    <rect key="frame" x="167" y="200" width="65" height="22"/>
+                    <rect key="frame" x="162" y="200" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="4Qm-2a-6Rr">
                         <font key="font" metaFont="system"/>
@@ -175,7 +175,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="ZcC-7P-AAQ">
-                    <rect key="frame" x="167" y="230" width="65" height="22"/>
+                    <rect key="frame" x="162" y="230" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="l0o-Tv-2Ln">
                         <font key="font" metaFont="system"/>
@@ -184,7 +184,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="7Ah-Ef-r5I">
-                    <rect key="frame" x="167" y="80" width="65" height="22"/>
+                    <rect key="frame" x="162" y="80" width="65" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" drawsBackground="YES" id="rAh-Q8-FRx">
                         <font key="font" metaFont="system"/>
@@ -193,7 +193,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="Hav-6m-f4c">
-                    <rect key="frame" x="30" y="52" width="131" height="17"/>
+                    <rect key="frame" x="25" y="52" width="131" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Two swarms merge:" id="9u4-eS-7Ye">
                         <font key="font" metaFont="system"/>
@@ -202,7 +202,7 @@
                     </textFieldCell>
                 </textField>
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="2qP-qE-MFK">
-                    <rect key="frame" x="234" y="228" width="19" height="27"/>
+                    <rect key="frame" x="229" y="228" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="30" doubleValue="1" id="8Ly-ap-i68"/>
                     <connections>
@@ -210,7 +210,7 @@
                     </connections>
                 </stepper>
             </subviews>
-            <point key="canvasLocation" x="551.5" y="362"/>
+            <point key="canvasLocation" x="760.5" y="382"/>
         </customView>
     </objects>
 </document>

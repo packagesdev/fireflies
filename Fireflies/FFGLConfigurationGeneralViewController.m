@@ -72,13 +72,6 @@
     return @"FFGLConfigurationGeneralViewController";
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    // Do view setup here.
-}
-
 #pragma mark -
 
 - (void)updateUI

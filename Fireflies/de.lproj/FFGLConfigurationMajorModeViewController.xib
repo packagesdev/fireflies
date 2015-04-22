@@ -40,7 +40,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="OyF-d4-5v5">
-                    <rect key="frame" x="53" y="232" width="167" height="17"/>
+                    <rect key="frame" x="41" y="232" width="179" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Gesamt-Schwarm-Modus:" id="ZuJ-B8-G8L">
                         <font key="font" metaFont="system"/>
@@ -57,7 +57,7 @@
                     </connections>
                 </stepper>
                 <textField verticalHuggingPriority="750" id="8HK-Xy-PKP">
-                    <rect key="frame" x="125" y="112" width="95" height="17"/>
+                    <rect key="frame" x="107" y="112" width="113" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Matrix-Modus:" id="RTg-Da-YYJ">
                         <font key="font" metaFont="system"/>
@@ -96,7 +96,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="tML-VW-2ch">
-                    <rect key="frame" x="53" y="172" width="167" height="17"/>
+                    <rect key="frame" x="41" y="172" width="179" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Leuchtkäfer-Geburtenrate:" id="GaP-bz-Km7">
                         <font key="font" metaFont="system"/>
@@ -105,7 +105,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="gZh-cZ-pBr">
-                    <rect key="frame" x="70" y="202" width="150" height="17"/>
+                    <rect key="frame" x="59" y="202" width="161" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Leuchtkäfer-Sterberate:" id="iOM-df-NAk">
                         <font key="font" metaFont="system"/>
@@ -131,7 +131,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="je2-gm-h73">
-                    <rect key="frame" x="130" y="142" width="90" height="17"/>
+                    <rect key="frame" x="113" y="142" width="107" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Wind hebt an:" id="Ar2-Rs-17V">
                         <font key="font" metaFont="system"/>
@@ -149,7 +149,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="mxX-a9-XXA">
-                    <rect key="frame" x="29" y="82" width="191" height="17"/>
+                    <rect key="frame" x="18" y="82" width="202" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Ein Schwarm teilt sich in zwei:" id="IVQ-77-vu9">
                         <font key="font" metaFont="system"/>
@@ -193,7 +193,7 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" id="Hav-6m-f4c">
-                    <rect key="frame" x="18" y="52" width="202" height="17"/>
+                    <rect key="frame" x="6" y="52" width="214" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Zwei Schwärme vereinigen sich:" id="9u4-eS-7Ye">
                         <font key="font" metaFont="system"/>
