@@ -35,6 +35,8 @@
 		F488E5AB1ABF26AF00541B6B /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E59A1ABF26AF00541B6B /* utils.h */; };
 		F488E5D21ABF319300541B6B /* libgfx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F488E5CB1ABF316400541B6B /* libgfx.a */; };
 		F488E5D81ABF361D00541B6B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F488E5D71ABF361D00541B6B /* libstdc++.dylib */; };
+		F49482391AEAF270000BDFA1 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F49482371AEAF270000BDFA1 /* thumbnail.png */; };
+		F494823A1AEAF270000BDFA1 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F49482381AEAF270000BDFA1 /* thumbnail@2x.png */; };
 		F4A6363D1ADC35DB0097AA55 /* FFGLTabHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A6363B1ADC35DB0097AA55 /* FFGLTabHeaderView.h */; };
 		F4A6363E1ADC35DB0097AA55 /* FFGLTabHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A6363C1ADC35DB0097AA55 /* FFGLTabHeaderView.m */; };
 		F4A636431ADC35F10097AA55 /* FFGLTabButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A636411ADC35F10097AA55 /* FFGLTabButton.h */; };
@@ -127,6 +129,8 @@
 		F488E59A1ABF26AF00541B6B /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = "GPL Code/utils.h"; sourceTree = "<group>"; };
 		F488E5C41ABF316400541B6B /* libgfx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libgfx.xcodeproj; path = "Fireflies/libgfx-1.1.0/macos/libgfx.xcodeproj"; sourceTree = "<group>"; };
 		F488E5D71ABF361D00541B6B /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		F49482371AEAF270000BDFA1 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		F49482381AEAF270000BDFA1 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		F49AA7A01AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FFGLConfigurationGeneralViewController.xib; sourceTree = "<group>"; };
 		F49AA7A11AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
 		F49AA7A21AE103570071FD80 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 			isa = PBXGroup;
 			children = (
 				F445AADA1ABEFC5D004ECE88 /* Info.plist */,
+				F49482371AEAF270000BDFA1 /* thumbnail.png */,
+				F49482381AEAF270000BDFA1 /* thumbnail@2x.png */,
 				F4D7743A1ADFB7B8000F5945 /* Localizable.strings */,
 			);
 			name = Resources;
@@ -438,11 +444,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D7743C1ADFB7B8000F5945 /* Localizable.strings in Resources */,
+				F494823A1AEAF270000BDFA1 /* thumbnail@2x.png in Resources */,
 				F4D774471ADFB7D1000F5945 /* FFGLConfigurationMajorModeViewController.xib in Resources */,
 				F4D774481ADFB7D1000F5945 /* FFGLConfigurationSwarmModeViewController.xib in Resources */,
 				F445AAEF1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.xib in Resources */,
 				F4D7743F1ADFB7C4000F5945 /* FFGLConfigurationWindowController.xib in Resources */,
 				F4D774461ADFB7D1000F5945 /* FFGLConfigurationGeneralViewController.xib in Resources */,
+				F49482391AEAF270000BDFA1 /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
