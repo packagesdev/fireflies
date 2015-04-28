@@ -74,7 +74,7 @@
 
 #pragma mark -
 
-- (void)updateUI
+- (void)restoreUI
 {
     [_minimumBaitsTextField setIntegerValue:_sceneSettings.minimumBaits];
     [_minimumBaitsStepper setIntegerValue:_sceneSettings.minimumBaits];

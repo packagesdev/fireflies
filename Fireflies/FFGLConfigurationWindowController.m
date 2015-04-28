@@ -23,6 +23,8 @@
 
 #import "FFGLConfigurationViewController.h"
 
+#import "FFGLWindow.h"
+
 #import "FFGLTabHeaderView.h"
 
 enum
@@ -32,14 +34,16 @@ enum
     FFGLTabMajorModeTag
 };
 
-@interface FFGLConfigurationWindowController ()
+@interface FFGLConfigurationWindowController () <FFGLWindowDelegate>
 {
     IBOutlet FFGLTabHeaderView *_tabHeaderView;
     
     IBOutlet NSView *_segmentView;
 
     IBOutlet NSButton * _mainScreenCheckBox;
-    
+	
+	IBOutlet NSButton * _cancelButton;
+	
     FFGLConfigurationViewController * _currentViewController;
     
     FFGLSceneSettings * _sceneSettings;
@@ -52,6 +56,8 @@ enum
 - (IBAction)showSegmentedView:(id)sender;
 
 - (IBAction)showAboutBox:(id)sender;
+
+- (IBAction)resetDialogSettings:(id)sender;
 
 - (IBAction)closeDialog:(id)sender;
 
@@ -92,10 +98,15 @@ enum
 	[((NSButton *)[_tabHeaderView viewWithTag:FFGLTabGeneralTag]) setState:NSOnState];
 	
     [self showViewControllerNamed:@"FFGLConfigurationGeneralViewController"];
-    
-    // Main Screen
-    
-    [_mainScreenCheckBox setState:(_mainScreenSetting==YES) ? NSOnState : NSOffState];
+}
+
+- (void)restoreUI
+{
+	[_currentViewController restoreUI];
+	
+	// Main Screen
+	
+	[_mainScreenCheckBox setState:(_mainScreenSetting==YES) ? NSOnState : NSOffState];
 }
 
 #pragma mark -
@@ -165,14 +176,25 @@ enum
     [sAboutBoxWindowController.window makeKeyAndOrderFront:nil];
 }
 
+- (IBAction)resetDialogSettings:(id)sender
+{
+	[_sceneSettings resetSettings];
+	
+	_mainScreenSetting=NO;
+	
+	[self restoreUI];
+}
+
 - (IBAction)closeDialog:(id)sender
 {
-    if ([sender tag]==NSOKButton)
+	NSString *tIdentifier = [[NSBundle bundleForClass:[self class]] bundleIdentifier];
+	ScreenSaverDefaults *tDefaults = [ScreenSaverDefaults defaultsForModuleWithName:tIdentifier];
+	
+	if ([sender tag]==NSOKButton)
     {
-        NSString *tIdentifier = [[NSBundle bundleForClass:[self class]] bundleIdentifier];
-        ScreenSaverDefaults *tDefaults = [ScreenSaverDefaults defaultsForModuleWithName:tIdentifier];
-        
-        // Scene Settings
+		[_currentViewController updateSettings];
+		
+		// Scene Settings
         
         NSDictionary * tDictionary=[_sceneSettings dictionaryRepresentation];
         
@@ -188,8 +210,43 @@ enum
         
         [tDefaults synchronize];
     }
-    
+	else
+	{
+		_sceneSettings=[[FFGLSceneSettings alloc] initWithDictionaryRepresentation:[tDefaults dictionaryRepresentation]];
+		
+		_mainScreenSetting=[tDefaults boolForKey:FFGLUserDefaultsMainDisplayOnly];
+	}
+	
     [NSApp endSheet:self.window];
+}
+
+#pragma mark -
+
+- (void)window:(NSWindow *)inWindow modifierFlagsDidChange:(NSEventModifierFlags) inModifierFlags
+{
+	NSRect tOriginalFrame=[_cancelButton frame];
+	
+	if ((inModifierFlags & NSAlternateKeyMask) == NSAlternateKeyMask)
+	{
+		[_cancelButton setTitle:NSLocalizedStringFromTableInBundle(@"Reset",@"Localizable",[NSBundle bundleForClass:[self class]],@"")];
+		[_cancelButton setAction:@selector(resetDialogSettings:)];
+	}
+	else
+	{
+		[_cancelButton setTitle:NSLocalizedStringFromTableInBundle(@"Cancel",@"Localizable",[NSBundle bundleForClass:[self class]],@"")];
+		[_cancelButton setAction:@selector(closeDialog:)];
+	}
+	
+	[_cancelButton sizeToFit];
+	
+	NSRect tFrame=[_cancelButton frame];
+	
+	if (NSWidth(tFrame)<84.0)
+		tFrame.size.width=84.0;
+	
+	tFrame.origin.x=NSMaxX(tOriginalFrame)-NSWidth(tFrame);
+	
+	[_cancelButton setFrame:tFrame];
 }
 
 @end

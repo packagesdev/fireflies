@@ -18,6 +18,8 @@
 		F445AAF31ABF00A1004ECE88 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445AAF21ABF00A1004ECE88 /* OpenGL.framework */; };
 		F445AAF61ABF02D4004ECE88 /* FFGLUserDefaults+Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F445AAF41ABF02D4004ECE88 /* FFGLUserDefaults+Constants.h */; };
 		F445AAF71ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F445AAF51ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m */; };
+		F46128C11AF0365C00646320 /* FFGLWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F46128BF1AF0365C00646320 /* FFGLWindow.h */; };
+		F46128C21AF0365C00646320 /* FFGLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F46128C01AF0365C00646320 /* FFGLWindow.m */; };
 		F488E59C1ABF26AF00541B6B /* arrow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F488E58B1ABF26AF00541B6B /* arrow.cpp */; };
 		F488E59D1ABF26AF00541B6B /* arrow.h in Headers */ = {isa = PBXBuildFile; fileRef = F488E58C1ABF26AF00541B6B /* arrow.h */; };
 		F488E59E1ABF26AF00541B6B /* bait.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F488E58D1ABF26AF00541B6B /* bait.cpp */; };
@@ -112,6 +114,8 @@
 		F445AAF21ABF00A1004ECE88 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		F445AAF41ABF02D4004ECE88 /* FFGLUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FFGLUserDefaults+Constants.h"; sourceTree = "<group>"; };
 		F445AAF51ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FFGLUserDefaults+Constants.m"; sourceTree = "<group>"; };
+		F46128BF1AF0365C00646320 /* FFGLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLWindow.h; sourceTree = "<group>"; };
+		F46128C01AF0365C00646320 /* FFGLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLWindow.m; sourceTree = "<group>"; };
 		F488E58B1ABF26AF00541B6B /* arrow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arrow.cpp; path = "GPL Code/arrow.cpp"; sourceTree = "<group>"; };
 		F488E58C1ABF26AF00541B6B /* arrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arrow.h; path = "GPL Code/arrow.h"; sourceTree = "<group>"; };
 		F488E58D1ABF26AF00541B6B /* bait.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bait.cpp; path = "GPL Code/bait.cpp"; sourceTree = "<group>"; };
@@ -276,6 +280,8 @@
 		F4DB00771AC4D315005D2883 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				F46128BF1AF0365C00646320 /* FFGLWindow.h */,
+				F46128C01AF0365C00646320 /* FFGLWindow.m */,
 				F4A6363B1ADC35DB0097AA55 /* FFGLTabHeaderView.h */,
 				F4A6363C1ADC35DB0097AA55 /* FFGLTabHeaderView.m */,
 				F4A636411ADC35F10097AA55 /* FFGLTabButton.h */,
@@ -329,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DBF1271AC37BDD003DF228 /* FFGLConfigurationViewController.h in Headers */,
+				F46128C11AF0365C00646320 /* FFGLWindow.h in Headers */,
 				F4A6363D1ADC35DB0097AA55 /* FFGLTabHeaderView.h in Headers */,
 				F4DB00721AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h in Headers */,
 				F488E5A21ABF26AF00541B6B /* firefly.h in Headers */,
@@ -475,6 +482,7 @@
 				F488E59E1ABF26AF00541B6B /* bait.cpp in Sources */,
 				F4A6363E1ADC35DB0097AA55 /* FFGLTabHeaderView.m in Sources */,
 				F4DBF1221AC376B6003DF228 /* FFGLSceneSettings.m in Sources */,
+				F46128C21AF0365C00646320 /* FFGLWindow.m in Sources */,
 				F488E5A81ABF26AF00541B6B /* tail.cpp in Sources */,
 				F445AAE81ABEFECF004ECE88 /* FFGLConfigurationWindowController.m in Sources */,
 				F4DBF12D1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m in Sources */,

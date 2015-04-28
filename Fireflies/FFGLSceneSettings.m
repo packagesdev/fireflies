@@ -63,7 +63,7 @@ NSString * const FFGL_Settings_SModeSwarmMergeKey=@"smode7";
 	
 	if (self!=nil)
 	{
-		[self resetToFactorySettings];
+		[self resetSettings];
 		
 		NSNumber * tNumber=inDictionary[FFGL_Settings_MinimumBaitsKey];
 		if (tNumber!=nil)
@@ -279,7 +279,7 @@ NSString * const FFGL_Settings_SModeSwarmMergeKey=@"smode7";
 
 #pragma mark -
 
-- (void)resetToFactorySettings
+- (void)resetSettings
 {
 	_minimumBaits=2;
 	_maximumBaits=5;

@@ -15,4 +15,6 @@
 
 @interface FFGLConfigurationWindowController : NSWindowController
 
+- (void)restoreUI;
+
 @end

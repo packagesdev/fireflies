@@ -11,40 +11,14 @@
  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import "FFGLConfigurationViewController.h"
+#import "FFGLWindow.h"
 
-@implementation FFGLConfigurationViewController
+@implementation FFGLWindow
 
-- (id)initWithSceneSettings:(FFGLSceneSettings *)inSceneSettings
+- (void)flagsChanged:(NSEvent*)inEvent
 {
-    self=[super initWithNibName:[self nibName] bundle:[NSBundle bundleForClass:[self class]]];
-    
-    if (self!=nil)
-    {
-        _sceneSettings=inSceneSettings;
-    }
-    
-    return self;
-}
-
-#pragma mark -
-
-- (void)didAddView
-{
-    [self restoreUI];
-}
-
-- (void)willRemoveView
-{
-    [self updateSettings];
-}
-
-- (void)restoreUI
-{
-}
-
-- (void)updateSettings
-{
+	if ([self.delegate respondsToSelector:@selector(window:modifierFlagsDidChange:)]==YES)
+		[(id<FFGLWindowDelegate>)self.delegate window:self modifierFlagsDidChange:[inEvent modifierFlags]];
 }
 
 @end

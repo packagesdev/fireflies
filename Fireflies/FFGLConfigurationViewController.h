@@ -28,7 +28,7 @@
 - (void)willRemoveView;
 
 
-- (void)updateUI;
+- (void)restoreUI;
 
 - (void)updateSettings;
 

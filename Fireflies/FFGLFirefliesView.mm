@@ -293,10 +293,14 @@
 
 - (NSWindow*)configureSheet
 {
-    if (_configurationWindowController==nil)
-        _configurationWindowController=[[FFGLConfigurationWindowController alloc] init];
-    
-    return _configurationWindowController.window;
+	if (_configurationWindowController==nil)
+		_configurationWindowController=[[FFGLConfigurationWindowController alloc] init];
+	
+	NSWindow * tWindow=_configurationWindowController.window;
+	
+	[_configurationWindowController restoreUI];
+	
+	return tWindow;
 }
 
 @end

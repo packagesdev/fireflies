@@ -48,7 +48,7 @@
 
 #pragma mark -
 
-- (void)updateUI
+- (void)restoreUI
 {
     [_allModeTextField setDoubleValue:_sceneSettings.sModeSwarms];
     [_allModeStepper setDoubleValue:_sceneSettings.sModeSwarms];

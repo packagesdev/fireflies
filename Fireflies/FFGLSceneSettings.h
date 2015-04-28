@@ -61,6 +61,6 @@
 
 - (NSDictionary *)dictionaryRepresentation;
 
-- (void)resetToFactorySettings;
+- (void)resetSettings;
 
 @end

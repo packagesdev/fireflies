@@ -48,7 +48,7 @@
 
 #pragma mark -
 
-- (void)updateUI
+- (void)restoreUI
 {
     [_normalModeTextField setDoubleValue:_sceneSettings.bModeNormal];
     [_normalModeStepper setDoubleValue:_sceneSettings.bModeNormal];

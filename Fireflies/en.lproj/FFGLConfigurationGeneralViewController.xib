@@ -94,7 +94,7 @@
                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="O7R-Th-s4q">
                     <rect key="frame" x="489" y="168" width="19" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="10" maxValue="30" doubleValue="10" id="bz0-jG-APp"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" increment="0.5" minValue="1" maxValue="30" doubleValue="10" id="bz0-jG-APp"/>
                     <connections>
                         <action selector="takeDoubleValueFrom:" target="Krr-Aw-nrD" id="uVF-I3-AJE"/>
                     </connections>
