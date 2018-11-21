@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4221B8B21A611A100C3915B /* NSColor+LabelColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F4221B8921A611A100C3915B /* NSColor+LabelColor.h */; };
+		F4221B8C21A611A100C3915B /* NSColor+LabelColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4221B8A21A611A100C3915B /* NSColor+LabelColor.m */; };
+		F42A66C82159810A0052BBA4 /* NSView+FFGL.h in Headers */ = {isa = PBXBuildFile; fileRef = F42A66C62159810A0052BBA4 /* NSView+FFGL.h */; };
+		F42A66C92159810A0052BBA4 /* NSView+FFGL.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A66C72159810A0052BBA4 /* NSView+FFGL.m */; };
+		F42A66D3215982710052BBA4 /* FFGLTabBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F42A66D1215982710052BBA4 /* FFGLTabBox.h */; };
+		F42A66D4215982710052BBA4 /* FFGLTabBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A66D2215982710052BBA4 /* FFGLTabBox.m */; };
 		F445AADC1ABEFC5D004ECE88 /* FFGLFirefliesView.h in Headers */ = {isa = PBXBuildFile; fileRef = F445AADB1ABEFC5D004ECE88 /* FFGLFirefliesView.h */; };
 		F445AADE1ABEFC5D004ECE88 /* FFGLFirefliesView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F445AADD1ABEFC5D004ECE88 /* FFGLFirefliesView.mm */; };
 		F445AAE71ABEFECF004ECE88 /* FFGLConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F445AAE41ABEFECF004ECE88 /* FFGLConfigurationWindowController.h */; };
@@ -58,8 +64,6 @@
 		F4DBF1281AC37BDD003DF228 /* FFGLConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF1261AC37BDD003DF228 /* FFGLConfigurationViewController.m */; };
 		F4DBF12C1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DBF1291AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h */; };
 		F4DBF12D1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF12A1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m */; };
-		F4EDB2A41ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */; };
-		F4EDB2A51ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */; };
 		F4EDB2A61ABF5FDD00F2564B /* FFGLSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */; };
 		F4EDB2A71ABF5FDD00F2564B /* FFGLSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EDB2A31ABF5FDD00F2564B /* FFGLSecondaryBox.m */; };
 /* End PBXBuildFile section */
@@ -101,6 +105,12 @@
 		F4078D4A1AE0134600181F25 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FFGLConfigurationSwarmModeViewController.xib; sourceTree = "<group>"; };
 		F4078D4B1AE0134600181F25 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FFGLConfigurationMajorModeViewController.xib; sourceTree = "<group>"; };
 		F4078D4C1AE0134600181F25 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FFGLConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F4221B8921A611A100C3915B /* NSColor+LabelColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+LabelColor.h"; sourceTree = "<group>"; };
+		F4221B8A21A611A100C3915B /* NSColor+LabelColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+LabelColor.m"; sourceTree = "<group>"; };
+		F42A66C62159810A0052BBA4 /* NSView+FFGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+FFGL.h"; sourceTree = "<group>"; };
+		F42A66C72159810A0052BBA4 /* NSView+FFGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+FFGL.m"; sourceTree = "<group>"; };
+		F42A66D1215982710052BBA4 /* FFGLTabBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLTabBox.h; sourceTree = "<group>"; };
+		F42A66D2215982710052BBA4 /* FFGLTabBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLTabBox.m; sourceTree = "<group>"; };
 		F445AAD61ABEFC5D004ECE88 /* Fireflies.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fireflies.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F445AADA1ABEFC5D004ECE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F445AADB1ABEFC5D004ECE88 /* FFGLFirefliesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFGLFirefliesView.h; sourceTree = "<group>"; };
@@ -169,8 +179,6 @@
 		F4DBF1261AC37BDD003DF228 /* FFGLConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationViewController.m; sourceTree = "<group>"; };
 		F4DBF1291AC37C94003DF228 /* FFGLConfigurationGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLConfigurationGeneralViewController.h; sourceTree = "<group>"; };
 		F4DBF12A1AC37C94003DF228 /* FFGLConfigurationGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLConfigurationGeneralViewController.m; sourceTree = "<group>"; };
-		F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLLightGrayBackgroundView.h; sourceTree = "<group>"; };
-		F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLLightGrayBackgroundView.m; sourceTree = "<group>"; };
 		F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGLSecondaryBox.h; sourceTree = "<group>"; };
 		F4EDB2A31ABF5FDD00F2564B /* FFGLSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGLSecondaryBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,6 +198,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4221B8F21A611A700C3915B /* Backward Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				F4221B8921A611A100C3915B /* NSColor+LabelColor.h */,
+				F4221B8A21A611A100C3915B /* NSColor+LabelColor.m */,
+			);
+			name = "Backward Compatibility";
+			sourceTree = "<group>";
+		};
 		F445AACC1ABEFC5D004ECE88 = {
 			isa = PBXGroup;
 			children = (
@@ -286,10 +303,12 @@
 				F4A6363C1ADC35DB0097AA55 /* FFGLTabHeaderView.m */,
 				F4A636411ADC35F10097AA55 /* FFGLTabButton.h */,
 				F4A636421ADC35F10097AA55 /* FFGLTabButton.m */,
-				F4EDB2A01ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h */,
-				F4EDB2A11ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m */,
+				F42A66D1215982710052BBA4 /* FFGLTabBox.h */,
+				F42A66D2215982710052BBA4 /* FFGLTabBox.m */,
 				F4EDB2A21ABF5FDD00F2564B /* FFGLSecondaryBox.h */,
 				F4EDB2A31ABF5FDD00F2564B /* FFGLSecondaryBox.m */,
+				F42A66C62159810A0052BBA4 /* NSView+FFGL.h */,
+				F42A66C72159810A0052BBA4 /* NSView+FFGL.m */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -309,6 +328,7 @@
 		F4EDB29D1ABF5FC600F2564B /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				F4221B8F21A611A700C3915B /* Backward Compatibility */,
 				F4DB00771AC4D315005D2883 /* Custom Views */,
 				F445AAEA1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.h */,
 				F445AAEB1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m */,
@@ -335,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DBF1271AC37BDD003DF228 /* FFGLConfigurationViewController.h in Headers */,
+				F42A66D3215982710052BBA4 /* FFGLTabBox.h in Headers */,
 				F46128C11AF0365C00646320 /* FFGLWindow.h in Headers */,
 				F4A6363D1ADC35DB0097AA55 /* FFGLTabHeaderView.h in Headers */,
 				F4DB00721AC4D1EA005D2883 /* FFGLConfigurationSwarmModeViewController.h in Headers */,
@@ -353,8 +374,9 @@
 				F488E59F1ABF26AF00541B6B /* bait.h in Headers */,
 				F488E5A41ABF26AF00541B6B /* modes.h in Headers */,
 				F445AADC1ABEFC5D004ECE88 /* FFGLFirefliesView.h in Headers */,
+				F4221B8B21A611A100C3915B /* NSColor+LabelColor.h in Headers */,
+				F42A66C82159810A0052BBA4 /* NSView+FFGL.h in Headers */,
 				F488E5A71ABF26AF00541B6B /* scene.h in Headers */,
-				F4EDB2A41ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.h in Headers */,
 				F488E5A01ABF26AF00541B6B /* control.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,18 +492,20 @@
 			files = (
 				F445AADE1ABEFC5D004ECE88 /* FFGLFirefliesView.mm in Sources */,
 				F445AAF71ABF02D4004ECE88 /* FFGLUserDefaults+Constants.m in Sources */,
+				F4221B8C21A611A100C3915B /* NSColor+LabelColor.m in Sources */,
 				F488E5AA1ABF26AF00541B6B /* utils.cpp in Sources */,
 				F488E5A61ABF26AF00541B6B /* scene.cpp in Sources */,
 				F4DB006B1AC4D196005D2883 /* FFGLConfigurationMajorModeViewController.m in Sources */,
 				F445AAEE1ABEFF01004ECE88 /* FFGLAboutBoxWindowController.m in Sources */,
 				F4A636441ADC35F10097AA55 /* FFGLTabButton.m in Sources */,
+				F42A66D4215982710052BBA4 /* FFGLTabBox.m in Sources */,
 				F4DBF1281AC37BDD003DF228 /* FFGLConfigurationViewController.m in Sources */,
-				F4EDB2A51ABF5FDD00F2564B /* FFGLLightGrayBackgroundView.m in Sources */,
 				F488E5A11ABF26AF00541B6B /* firefly.cpp in Sources */,
 				F488E5A31ABF26AF00541B6B /* modes.cpp in Sources */,
 				F488E59E1ABF26AF00541B6B /* bait.cpp in Sources */,
 				F4A6363E1ADC35DB0097AA55 /* FFGLTabHeaderView.m in Sources */,
 				F4DBF1221AC376B6003DF228 /* FFGLSceneSettings.m in Sources */,
+				F42A66C92159810A0052BBA4 /* NSView+FFGL.m in Sources */,
 				F46128C21AF0365C00646320 /* FFGLWindow.m in Sources */,
 				F488E5A81ABF26AF00541B6B /* tail.cpp in Sources */,
 				F445AAE81ABEFECF004ECE88 /* FFGLConfigurationWindowController.m in Sources */,
@@ -644,7 +668,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				INFOPLIST_FILE = Fireflies/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -658,7 +682,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				INFOPLIST_FILE = Fireflies/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";

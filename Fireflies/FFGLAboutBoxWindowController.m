@@ -1,5 +1,5 @@
 /*
- Copyright (c) 2012-2015, Stephane Sudre
+ Copyright (c) 2012-2018, Stephane Sudre
  All rights reserved.
  
  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -12,6 +12,10 @@
  */
 
 #import "FFGLAboutBoxWindowController.h"
+
+#ifndef NSAppKitVersionNumber10_12
+#define NSAppKitVersionNumber10_12 1504
+#endif
 
 @interface FFGLAboutBoxWindowController ()
 {
@@ -44,7 +48,24 @@
     
     [_copyrightLabel setStringValue:[NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Legal terms",@"Localizable",tBundle,@""),[[NSCalendarDate date] yearOfCommonEra]]];
 	
-	[_portCreditsLabel setStringValue:NSLocalizedStringFromTableInBundle(@"Port credits",@"Localizable",tBundle,@"")];
+	NSString * tOSName=nil;
+	
+	if (NSAppKitVersionNumber>=NSAppKitVersionNumber10_12)
+	{
+		tOSName=@"macOS";
+	}
+	else if (NSAppKitVersionNumber>=NSAppKitVersionNumber10_8)
+	{
+		tOSName=@"OS X";
+	}
+	else
+	{
+		tOSName=@"Mac OS X";
+	}
+	
+	NSString * tCreditsLabel=[NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Port credits",@"Localizable",tBundle,@""),tOSName];
+	
+	[_portCreditsLabel setStringValue:tCreditsLabel];
 }
 
 @end

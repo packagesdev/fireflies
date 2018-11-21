@@ -1,5 +1,5 @@
 /*
- Copyright (c) 2015, Stephane Sudre
+ Copyright (c) 2015-2018, Stephane Sudre
  All rights reserved.
  
  Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -12,6 +12,9 @@
  */
 
 #import "FFGLTabButton.h"
+#import "NSView+FFGL.h"
+
+#import "NSColor+LabelColor.h"
 
 @interface FFGLTabButton ()
 {
@@ -63,21 +66,36 @@
 - (void)drawRect:(NSRect)inRect
 {
 	NSMutableAttributedString * tAttributedString=[[self attributedTitle] mutableCopy];
+	BOOL tIsDark=[self FFGL_isEffectiveAppareanceDarkAqua];
 	NSColor * tColor;
 	
 	if (self.state==NSOnState)
 	{
-		if (_pushed==YES)
-			tColor=[NSColor blueColor];
+		if (tIsDark==NO)
+		{
+			if (_pushed==YES)
+				tColor=[NSColor blueColor];
+			else
+				tColor=[NSColor colorWithDeviceRed:25.0/255.0 green:116.0/255.0 blue:219.0/255.0 alpha:1.0];
+		}
 		else
-			tColor=[NSColor colorWithDeviceRed:25.0/255.0 green:116.0/255.0 blue:219.0/255.0 alpha:1.0];
+		{
+			if (_pushed==YES)
+				tColor=[NSColor colorWithDeviceRed:83.0/255.0 green:165.0/255.0 blue:251.0/255.0 alpha:1.0];
+			else
+				tColor=[NSColor colorWithDeviceRed:83.0/255.0 green:165.0/255.0 blue:251.0/255.0 alpha:1.0];
+		}
 	}
 	else
 	{
 		if (_pushed==YES)
-			tColor=[NSColor blackColor];
+		{
+			tColor=(tIsDark==NO) ? [NSColor blackColor] : [NSColor whiteColor];
+		}
 		else
-			tColor=[NSColor colorWithDeviceWhite:0.39 alpha:1.0];
+		{
+			tColor=[NSColor labelColor];
+		}
 	}
 	
 	[tAttributedString addAttribute:NSForegroundColorAttributeName

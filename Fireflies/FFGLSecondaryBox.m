@@ -12,6 +12,7 @@
  */
 
 #import "FFGLSecondaryBox.h"
+#import "NSView+FFGL.h"
 
 @implementation FFGLSecondaryBox
 
@@ -24,13 +25,18 @@
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-    [[NSColor colorWithDeviceWhite:1.0 alpha:0.8] set];
-    
-    NSRectFillUsingOperation(dirtyRect, NSCompositeSourceOver);
-    
-    [[NSColor colorWithDeviceWhite:0.87 alpha:1.0] set];
-    
-    NSFrameRect([self bounds]);
+	if ([self FFGL_isEffectiveAppareanceDarkAqua]==NO)
+		[[NSColor colorWithDeviceWhite:1.0 alpha:0.5] set];
+	else
+		[[NSColor colorWithDeviceWhite:0.0 alpha:0.15] set];
+	
+	NSRectFillUsingOperation(dirtyRect,NSCompositeSourceOver);
+	
+	[[NSColor colorWithDeviceWhite:0.0 alpha:0.10] set];
+	
+	NSRect tFrameRect=NSInsetRect([self bounds],-1,0);
+	
+	NSFrameRectWithWidthUsingOperation(tFrameRect, 1.0, NSCompositeSourceOver);
 }
 
 @end
